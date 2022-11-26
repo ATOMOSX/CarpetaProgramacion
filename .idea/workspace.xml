@@ -5,52 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/MI_PC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion2/DatosPrimitivosBoolean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion2/DatosPrimitivosChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion2/DatosPrimitivosEnteros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion2/DeclaracionPrimeraClase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion2/SistemasNumericos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion2/SistemasNumericosScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion2/TareaSeccion2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion3/ConcatenandoString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion3/CreandoObjetoString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion3/StringExtensionArchivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion3/StringInmutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion3/StringMetodos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion3/StringMetodosArreglo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion3/StringTestRendimientoConcat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion3/StringValidar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion3/TareaSeccion3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion4/OperadorArigmetico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion4/OperadorInstanceOf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion4/OperadorInstanceOfAbstracto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion4/OperadorTernario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion4/OperadorTernarioNumeroMayor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion4/OperadorerTernarioLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion4/OperadoresAsignacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion4/OperadoresIncrementales.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion4/OperadoresLogicos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion4/OperadoresLogicosLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion4/OperadoresRelacionales.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion4/OperadoresUnarios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion4/PrecedenciaOperadores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion4/Tarea1Seccion4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion4/Tarea2Seccion4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion4/Tarea3Seccion4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seccion5/SentenciaFor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seccion5/SentenciaForArreglos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seccion5/SentenciaIfElse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seccion5/SentenciaIfElseNumeroDiasMes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seccion5/SentenciaSwichCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seccion5/SentenciaSwichCaseNumeroDiasMes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seccion5/SentenciaForEach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seccion5/SentenciaWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +27,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2GMOnkv9rOY8HTcRtMHoYKzvjSA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
