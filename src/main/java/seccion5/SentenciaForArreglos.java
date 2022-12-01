@@ -1,4 +1,4 @@
-package seccion5;
+package Seccion5;
 
 import javax.swing.*;
 

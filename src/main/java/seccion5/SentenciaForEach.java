@@ -1,4 +1,4 @@
-package seccion5;
+package Seccion5;
 
 public class SentenciaForEach {
     public static void main(String[] args) {

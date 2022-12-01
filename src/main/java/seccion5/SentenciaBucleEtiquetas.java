@@ -1,4 +1,4 @@
-package seccion5;
+package Seccion5;
 
 public class SentenciaBucleEtiquetas {
     public static void main(String[] args) {
