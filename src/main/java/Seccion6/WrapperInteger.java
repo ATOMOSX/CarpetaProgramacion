@@ -33,7 +33,7 @@ public class WrapperInteger {
         //Ahora lo haremos con el objeto de referencia Long.
         Long longObjeto = intObjeto1.longValue(); //En este caso vemos que el long tiene mayor capacidad de infmoracion.
         System.out.println("longObjeto = " + longObjeto); // Y no habra perdida de informacion.
-        
+
 
 
     }
