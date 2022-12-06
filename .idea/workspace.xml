@@ -46,19 +46,20 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Seccion8" />
+      <recent name="Seccion7" />
       <recent name="seccion5" />
       <recent name="secion4" />
       <recent name="Secion3" />
-      <recent name="Secion2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PasarPorValor">
-    <configuration name="EjemploGetClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion6.EjemploGetClass" />
+  <component name="RunManager" selected="Application.EjemploJavaUtilParseString">
+    <configuration name="EjemploJavaUtilCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion8.EjemploJavaUtilCalendar" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seccion6.*" />
+          <option name="PATTERN" value="Seccion8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasarPorValor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion6.PasarPorValor" />
+    <configuration name="EjemploJavaUtilDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion8.EjemploJavaUtilDate" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seccion6.*" />
+          <option name="PATTERN" value="Seccion8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +80,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tarea3Seccion5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion5.Tarea3Seccion5" />
+    <configuration name="EjemploJavaUtilDateGetTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion8.EjemploJavaUtilDateGetTime" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seccion5.*" />
+          <option name="PATTERN" value="Seccion8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploJavaUtilParseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion8.EjemploJavaUtilParseString" />
+      <module name="CarpetaProgramacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Seccion8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasarPorReferencia2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion7.PasarPorReferencia2" />
+      <module name="CarpetaProgramacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Seccion7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,39 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion6.WrapperInteger" />
-      <module name="CarpetaProgramacion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Seccion6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WrapperOperadoresRelacionales" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion6.WrapperOperadoresRelacionales" />
-      <module name="CarpetaProgramacion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Seccion6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PasarPorValor" />
-        <item itemvalue="Application.EjemploGetClass" />
-        <item itemvalue="Application.WrapperOperadoresRelacionales" />
-        <item itemvalue="Application.WrapperInteger" />
-        <item itemvalue="Application.Tarea3Seccion5" />
+        <item itemvalue="Application.EjemploJavaUtilParseString" />
+        <item itemvalue="Application.EjemploJavaUtilCalendar" />
+        <item itemvalue="Application.EjemploJavaUtilDateGetTime" />
+        <item itemvalue="Application.EjemploJavaUtilDate" />
+        <item itemvalue="Application.PasarPorReferencia2" />
       </list>
     </recent_temporary>
   </component>

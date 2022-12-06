@@ -1,4 +1,4 @@
-package Seccion6;
+package Seccion7;
 
 public class PasarPorReferencia {
 
@@ -7,15 +7,14 @@ public class PasarPorReferencia {
         int[] edad = {10, 11, 12};
         System.out.println("Iniciamos el metodo main");
 
-        for (int i = 0; i > edad.length; i++){
+        for (int i = 0; i < edad.length; i++){
             System.out.println("edad = " + edad[i]);
         }
 
         System.out.println("Antes de invocar al metodo test");
         test(edad);
         System.out.println("Despues de invocar al metodo test");
-
-        for (int i = 0; i > edad.length; i++){
+        for (int i = 0; i < edad.length; i++){
             System.out.println("edad = " + edad[i]);
         }
 
@@ -25,8 +24,8 @@ public class PasarPorReferencia {
     public static void test(int[] edadArreglo ){
         System.out.println("Iniciamos el metodo Test ");
 
-        for (int i = 0; i > edadArreglo.length; i++){
-            System.out.println("edad = " + edadArreglo[i]);
+        for (int i = 0; i < edadArreglo.length; i++){
+            edadArreglo[i] = edadArreglo[i] + 20;
         }
 
         System.out.println("Finaliza el metodo Test ");

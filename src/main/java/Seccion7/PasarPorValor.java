@@ -1,4 +1,4 @@
-package Seccion6;
+package Seccion7;
 
 public class PasarPorValor {
     public static void main(String[] args) {
