@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="" />
+    <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion8/EjemploJavaUtilParseString2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion8/TareaSeccion8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion8/EjemploJavaUtilCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seccion8/EjemploJavaUtilCalendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion8/EjemploJavaUtilParseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seccion8/EjemploJavaUtilParseString.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +59,7 @@
       <recent name="Secion3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploJavaUtilParseString">
+  <component name="RunManager" selected="Application.TareaSeccion8">
     <configuration name="EjemploJavaUtilCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seccion8.EjemploJavaUtilCalendar" />
       <module name="CarpetaProgramacion" />
@@ -106,19 +112,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasarPorReferencia2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion7.PasarPorReferencia2" />
-      <module name="CarpetaProgramacion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Seccion7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tarea4Seccion5" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seccion5.Tarea4Seccion5" />
       <module name="CarpetaProgramacion" />
@@ -132,13 +125,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TareaSeccion8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion8.TareaSeccion8" />
+      <module name="CarpetaProgramacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Seccion8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TareaSeccion8" />
         <item itemvalue="Application.EjemploJavaUtilParseString" />
         <item itemvalue="Application.EjemploJavaUtilCalendar" />
         <item itemvalue="Application.EjemploJavaUtilDateGetTime" />
         <item itemvalue="Application.EjemploJavaUtilDate" />
-        <item itemvalue="Application.PasarPorReferencia2" />
       </list>
     </recent_temporary>
   </component>
