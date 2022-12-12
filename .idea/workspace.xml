@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion9/AsignarPropiedadesDelSistema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion9/EjemploPropiedadesDeSistema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion9/EjemploVariablesDeEntorno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seccion9/EjemploVariablesDeEntorno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,26 +56,13 @@
       <recent name="Secion3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AsignarPropiedadesDelSistema">
+  <component name="RunManager" selected="Application.EjemploVariablesDeEntorno">
     <configuration name="AsignarPropiedadesDelSistema" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seccion9.AsignarPropiedadesDelSistema" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Seccion9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjemploJavaUtilCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion8.EjemploJavaUtilCalendar" />
-      <module name="CarpetaProgramacion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Seccion8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,6 +85,19 @@
     </configuration>
     <configuration name="EjemploPropiedadesDeSistema" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seccion9.EjemploPropiedadesDeSistema" />
+      <module name="CarpetaProgramacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Seccion9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploVariablesDeEntorno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion9.EjemploVariablesDeEntorno" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
@@ -140,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploVariablesDeEntorno" />
         <item itemvalue="Application.AsignarPropiedadesDelSistema" />
         <item itemvalue="Application.EjemploPropiedadesDeSistema" />
         <item itemvalue="Application.TareaSeccion8" />
         <item itemvalue="Application.EjemploJavaUtilParseString" />
-        <item itemvalue="Application.EjemploJavaUtilCalendar" />
       </list>
     </recent_temporary>
   </component>
