@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion10/EjemploClaseMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion10/EjemploClaseMathRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion10/EjemploClaseMathRandom2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion10/EjemploClaseMathTrigonometrica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion10/TareaSeccion10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion11/ArgumentosLineaComando.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +56,13 @@
       <recent name="Secion3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TareaSeccion10">
-    <configuration name="EjemploClaseMath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion10.EjemploClaseMath" />
+  <component name="RunManager" selected="Application.ArgumentosLineaComando">
+    <configuration name="ArgumentosLineaComando" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion11.ArgumentosLineaComando" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seccion10.*" />
+          <option name="PATTERN" value="Seccion11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArgumentosLineaComando" />
         <item itemvalue="Application.TareaSeccion10" />
         <item itemvalue="Application.EjemploClaseMathRandom2" />
         <item itemvalue="Application.EjemploClaseMathRandom" />
         <item itemvalue="Application.EjemploClaseMathTrigonometrica" />
-        <item itemvalue="Application.EjemploClaseMath" />
       </list>
     </recent_temporary>
   </component>
