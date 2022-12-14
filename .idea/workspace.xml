@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion9/EjecutarProgramaSistemaOperativo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion9/AsignarPropiedadesDelSistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seccion9/AsignarPropiedadesDelSistema.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Seccion9/EjemploVariablesDeEntorno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seccion9/EjemploVariablesDeEntorno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,14 +41,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Seccion8" />
@@ -56,7 +58,7 @@
       <recent name="Secion3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploVariablesDeEntorno">
+  <component name="RunManager" selected="Application.EjecutarProgramaSistemaOperativo">
     <configuration name="AsignarPropiedadesDelSistema" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seccion9.AsignarPropiedadesDelSistema" />
       <module name="CarpetaProgramacion" />
@@ -70,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploJavaUtilParseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion8.EjemploJavaUtilParseString" />
+    <configuration name="EjecutarProgramaSistemaOperativo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion9.EjecutarProgramaSistemaOperativo" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seccion8.*" />
+          <option name="PATTERN" value="Seccion9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjemploVariablesDeEntorno" />
+        <item itemvalue="Application.EjecutarProgramaSistemaOperativo" />
         <item itemvalue="Application.AsignarPropiedadesDelSistema" />
+        <item itemvalue="Application.EjemploVariablesDeEntorno" />
         <item itemvalue="Application.EjemploPropiedadesDeSistema" />
         <item itemvalue="Application.TareaSeccion8" />
-        <item itemvalue="Application.EjemploJavaUtilParseString" />
       </list>
     </recent_temporary>
   </component>
