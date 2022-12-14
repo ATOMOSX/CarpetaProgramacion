@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion9/EjecutarProgramaSistemaOperativo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion10/EjemploClaseMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion10/EjemploClaseMathRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion10/EjemploClaseMathRandom2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion10/EjemploClaseMathTrigonometrica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion10/TareaSeccion10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion9/AsignarPropiedadesDelSistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seccion9/AsignarPropiedadesDelSistema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion9/EjemploVariablesDeEntorno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seccion9/EjemploVariablesDeEntorno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +60,13 @@
       <recent name="Secion3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjecutarProgramaSistemaOperativo">
-    <configuration name="AsignarPropiedadesDelSistema" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion9.AsignarPropiedadesDelSistema" />
+  <component name="RunManager" selected="Application.TareaSeccion10">
+    <configuration name="EjemploClaseMath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion10.EjemploClaseMath" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seccion9.*" />
+          <option name="PATTERN" value="Seccion10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjecutarProgramaSistemaOperativo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion9.EjecutarProgramaSistemaOperativo" />
+    <configuration name="EjemploClaseMathRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion10.EjemploClaseMathRandom" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seccion9.*" />
+          <option name="PATTERN" value="Seccion10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploPropiedadesDeSistema" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion9.EjemploPropiedadesDeSistema" />
+    <configuration name="EjemploClaseMathRandom2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion10.EjemploClaseMathRandom2" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seccion9.*" />
+          <option name="PATTERN" value="Seccion10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploVariablesDeEntorno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion9.EjemploVariablesDeEntorno" />
+    <configuration name="EjemploClaseMathTrigonometrica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion10.EjemploClaseMathTrigonometrica" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seccion9.*" />
+          <option name="PATTERN" value="Seccion10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TareaSeccion8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion8.TareaSeccion8" />
+    <configuration name="TareaSeccion10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion10.TareaSeccion10" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seccion8.*" />
+          <option name="PATTERN" value="Seccion10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjecutarProgramaSistemaOperativo" />
-        <item itemvalue="Application.AsignarPropiedadesDelSistema" />
-        <item itemvalue="Application.EjemploVariablesDeEntorno" />
-        <item itemvalue="Application.EjemploPropiedadesDeSistema" />
-        <item itemvalue="Application.TareaSeccion8" />
+        <item itemvalue="Application.TareaSeccion10" />
+        <item itemvalue="Application.EjemploClaseMathRandom2" />
+        <item itemvalue="Application.EjemploClaseMathRandom" />
+        <item itemvalue="Application.EjemploClaseMathTrigonometrica" />
+        <item itemvalue="Application.EjemploClaseMath" />
       </list>
     </recent_temporary>
   </component>
