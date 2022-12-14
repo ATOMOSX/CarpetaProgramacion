@@ -1,8 +1,8 @@
 # CarpetaProgramacion
-# Clases de ayuda
-SECCIÓN 2: Variables
+## Clases de ayuda
+###SECCIÓN 2: Variables
 
-SECCIÓN 3: Tipo String(Cadenas)
+###SECCIÓN 3: Tipo String(Cadenas)
 
 SECCIÓN 4: Operadores
 
