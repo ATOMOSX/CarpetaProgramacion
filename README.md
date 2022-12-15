@@ -1,5 +1,5 @@
 # CarpetaProgramacion
-## Clases de ayuda
+
 ##SECCIÓN 2
 Variables
 
