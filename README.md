@@ -1,33 +1,33 @@
 # CarpetaProgramacion
 
-##Sección 2
+## Sección 2
 
 Variables
 
-##SECCIÓN 3
+## Sección 3
 
 Tipo String(Cadenas)
 
-##SECCIÓN 4
+## Sección 4
 
 Operadores
 
-##SECCIÓN 5
+## Sección 5
 
 Flujos de control
 
-##SECCIÓN 6
+## Sección 6
 
 Clases Wrapper
 
-##SECCIÓN 7
+## Sección 7
 
 Valor/Referencia
 
-##SECCIÓN 8
+## Sección 8
 
 Clases Date y Calendar
 
-##SECCIÓN 9
+## Sección 9
 
 Clase System
