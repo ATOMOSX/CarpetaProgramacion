@@ -1,6 +1,6 @@
 # CarpetaProgramacion
 
-##SECCIÓN 2
+##Sección 2
 Variables
 
 ##SECCIÓN 3
