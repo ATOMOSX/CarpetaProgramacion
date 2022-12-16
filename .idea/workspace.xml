@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArregloString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosFor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosFor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +49,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Seccion12" />
       <recent name="Seccion8" />
       <recent name="Seccion7" />
       <recent name="seccion5" />
       <recent name="secion4" />
-      <recent name="Secion3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploArregloString">
+  <component name="RunManager" selected="Application.EjemploArreglosFor">
     <configuration name="ArgumentosLineaComando" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seccion11.ArgumentosLineaComando" />
       <module name="CarpetaProgramacion" />
@@ -85,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploClaseMathRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion10.EjemploClaseMathRandom" />
+    <configuration name="EjemploArreglosFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion12.EjemploArreglosFor" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seccion10.*" />
+          <option name="PATTERN" value="Seccion12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploArreglosFor" />
         <item itemvalue="Application.EjemploArregloString" />
         <item itemvalue="Application.ArgumentosLineaComando" />
         <item itemvalue="Application.TareaSeccion10" />
         <item itemvalue="Application.EjemploClaseMathRandom2" />
-        <item itemvalue="Application.EjemploClaseMathRandom" />
       </list>
     </recent_temporary>
   </component>
