@@ -1,6 +1,6 @@
 package Seccion12;
 
-public class EjemploArreglosForBurbujaOptimizado {
+public class EjemploArreglosForBurbujaReutilizado {
     public static void arregloInverso (String [] arreglo) {
 
         int total = arreglo.length;
