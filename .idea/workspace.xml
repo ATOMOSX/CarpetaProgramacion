@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosNumeroMayor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosDetectarOrden.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +56,7 @@
       <recent name="secion4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploArreglosNumeroMayor">
+  <component name="RunManager" selected="Application.EjemploArreglosDetectarOrden">
     <configuration name="EjemploArreglosCombinados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seccion12.EjemploArreglosCombinados" />
       <module name="CarpetaProgramacion" />
@@ -83,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploArreglosForBurbujaReutilizado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion12.EjemploArreglosForBurbujaReutilizado" />
+    <configuration name="EjemploArreglosDetectarOrden" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion12.EjemploArreglosDetectarOrden" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploArreglosDetectarOrden" />
         <item itemvalue="Application.EjemploArreglosNumeroMayor" />
         <item itemvalue="Application.EjemploArreglosCombinados2" />
         <item itemvalue="Application.EjemploArreglosCombinados" />
         <item itemvalue="Application.EjemploArreglosOrdenPrincipioFinal" />
-        <item itemvalue="Application.EjemploArreglosForBurbujaReutilizado" />
       </list>
     </recent_temporary>
   </component>
