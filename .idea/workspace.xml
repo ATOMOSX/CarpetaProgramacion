@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosParesImpares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArregloNotasAlumnos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,9 +56,9 @@
       <recent name="secion4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploArreglosParesImpares">
-    <configuration name="EjemploArreglosCombinados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion12.EjemploArreglosCombinados" />
+  <component name="RunManager" selected="Application.EjemploArregloNotasAlumnos">
+    <configuration name="EjemploArregloNotasAlumnos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion12.EjemploArregloNotasAlumnos" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploArregloNotasAlumnos" />
         <item itemvalue="Application.EjemploArreglosParesImpares" />
         <item itemvalue="Application.EjemploArreglosDetectarOrden" />
         <item itemvalue="Application.EjemploArreglosNumeroMayor" />
         <item itemvalue="Application.EjemploArreglosCombinados2" />
-        <item itemvalue="Application.EjemploArreglosCombinados" />
       </list>
     </recent_temporary>
   </component>
