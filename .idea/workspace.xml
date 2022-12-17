@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosDesplazadosPorPosicion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosDesplazadosPorPosicion2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosDesplazadosPorPosicion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosDesplazadosPorPosicion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
       <recent name="secion4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploArreglosDesplazadosPorPosicion">
+  <component name="RunManager" selected="Application.EjemploArreglosDesplazadosPorPosicion2">
     <configuration name="EjemploArregloNotasAlumnos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seccion12.EjemploArregloNotasAlumnos" />
       <module name="CarpetaProgramacion" />
@@ -98,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploArreglosDetectarOrden" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion12.EjemploArreglosDetectarOrden" />
+    <configuration name="EjemploArreglosDesplazadosPorPosicion2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion12.EjemploArreglosDesplazadosPorPosicion2" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploArreglosDesplazadosPorPosicion2" />
         <item itemvalue="Application.EjemploArreglosDesplazadosPorPosicion" />
         <item itemvalue="Application.EjemploArreglosBuscarString" />
         <item itemvalue="Application.EjemploArregloNotasAlumnos" />
         <item itemvalue="Application.EjemploArreglosParesImpares" />
-        <item itemvalue="Application.EjemploArreglosDetectarOrden" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +182,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/Seccion5/Tarea1Seccion5.java</url>
           <line>6</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosDesplazadosPorPosicion.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArithmeticException" package="java.lang" />
