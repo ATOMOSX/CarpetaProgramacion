@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosBuscarString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosDesplazadosPorPosicion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +34,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2GMOnkv9rOY8HTcRtMHoYKzvjSA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,7 +58,7 @@
       <recent name="secion4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploArreglosBuscarString">
+  <component name="RunManager" selected="Application.EjemploArreglosDesplazadosPorPosicion">
     <configuration name="EjemploArregloNotasAlumnos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seccion12.EjemploArregloNotasAlumnos" />
       <module name="CarpetaProgramacion" />
@@ -83,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploArreglosDetectarOrden" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion12.EjemploArreglosDetectarOrden" />
+    <configuration name="EjemploArreglosDesplazadosPorPosicion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion12.EjemploArreglosDesplazadosPorPosicion" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploArreglosNumeroMayor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion12.EjemploArreglosNumeroMayor" />
+    <configuration name="EjemploArreglosDetectarOrden" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion12.EjemploArreglosDetectarOrden" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploArreglosDesplazadosPorPosicion" />
         <item itemvalue="Application.EjemploArreglosBuscarString" />
         <item itemvalue="Application.EjemploArregloNotasAlumnos" />
         <item itemvalue="Application.EjemploArreglosParesImpares" />
         <item itemvalue="Application.EjemploArreglosDetectarOrden" />
-        <item itemvalue="Application.EjemploArreglosNumeroMayor" />
       </list>
     </recent_temporary>
   </component>
