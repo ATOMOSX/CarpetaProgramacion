@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosOrdenPrincipioFinal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosForBurbujaReutilizado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosForBurbujaReutilizado.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
       <recent name="secion4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploArreglosForBurbujaReutilizado">
+  <component name="RunManager" selected="Application.EjemploArreglosOrdenPrincipioFinal">
     <configuration name="EjemploArreglosForBurbuja" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seccion12.EjemploArreglosForBurbuja" />
       <module name="CarpetaProgramacion" />
@@ -96,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploArreglosForInverso" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion12.EjemploArreglosForInverso" />
+    <configuration name="EjemploArreglosForInversoMutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion12.EjemploArreglosForInversoMutable" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploArreglosForInversoMutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion12.EjemploArreglosForInversoMutable" />
+    <configuration name="EjemploArreglosOrdenPrincipioFinal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion12.EjemploArreglosOrdenPrincipioFinal" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploArreglosOrdenPrincipioFinal" />
         <item itemvalue="Application.EjemploArreglosForBurbujaReutilizado" />
         <item itemvalue="Application.EjemploArreglosForBurbujaOptimizado" />
         <item itemvalue="Application.EjemploArreglosForBurbuja" />
         <item itemvalue="Application.EjemploArreglosForInversoMutable" />
-        <item itemvalue="Application.EjemploArreglosForInverso" />
       </list>
     </recent_temporary>
   </component>
