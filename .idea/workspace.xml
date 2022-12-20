@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosDesplazadosPorPosicion3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion12/EjemplosArreglosEliminarElemento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,20 +58,7 @@
       <recent name="secion4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploArreglosDesplazadosPorPosicion3">
-    <configuration name="EjemploArregloNotasAlumnos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion12.EjemploArregloNotasAlumnos" />
-      <module name="CarpetaProgramacion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Seccion12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.EjemplosArreglosEliminarElemento">
     <configuration name="EjemploArreglosBuscarString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seccion12.EjemploArreglosBuscarString" />
       <module name="CarpetaProgramacion" />
@@ -124,6 +111,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjemplosArreglosEliminarElemento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion12.EjemplosArreglosEliminarElemento" />
+      <module name="CarpetaProgramacion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Seccion12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tarea4Seccion5" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seccion5.Tarea4Seccion5" />
       <module name="CarpetaProgramacion" />
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemplosArreglosEliminarElemento" />
         <item itemvalue="Application.EjemploArreglosDesplazadosPorPosicion3" />
         <item itemvalue="Application.EjemploArreglosDesplazadosPorPosicion2" />
         <item itemvalue="Application.EjemploArreglosDesplazadosPorPosicion" />
         <item itemvalue="Application.EjemploArreglosBuscarString" />
-        <item itemvalue="Application.EjemploArregloNotasAlumnos" />
       </list>
     </recent_temporary>
   </component>
