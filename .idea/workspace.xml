@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion12/Tarea5Seccion12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatrices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/Tarea4Seccion12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seccion12/Tarea4Seccion12.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +58,13 @@
       <recent name="secion4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tarea5Seccion12">
-    <configuration name="Tarea1Seccion12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion12.Tarea1Seccion12" />
+  <component name="RunManager" selected="Application.EjemploMatrices">
+    <configuration name="EjemploMatrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion13.EjemploMatrices" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seccion12.*" />
+          <option name="PATTERN" value="Seccion13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploMatrices" />
         <item itemvalue="Application.Tarea5Seccion12" />
         <item itemvalue="Application.Tarea4Seccion12" />
         <item itemvalue="Application.Tarea3Seccion12" />
         <item itemvalue="Application.Tarea2Seccion12" />
-        <item itemvalue="Application.Tarea1Seccion12" />
       </list>
     </recent_temporary>
   </component>
