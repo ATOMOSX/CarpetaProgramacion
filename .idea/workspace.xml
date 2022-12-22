@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatircesFor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatricesTamanoVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatircesFor2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatircesFor2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +52,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Seccion13" />
       <recent name="Seccion12" />
       <recent name="Seccion8" />
       <recent name="Seccion7" />
       <recent name="seccion5" />
-      <recent name="secion4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploMatircesFor">
+  <component name="RunManager" selected="Application.EjemploMatricesTamanoVariable">
     <configuration name="EjemploMatircesFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seccion13.EjemploMatircesFor" />
       <module name="CarpetaProgramacion" />
@@ -84,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tarea3Seccion12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion12.Tarea3Seccion12" />
+    <configuration name="EjemploMatricesTamanoVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion13.EjemploMatricesTamanoVariable" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seccion12.*" />
+          <option name="PATTERN" value="Seccion13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploMatricesTamanoVariable" />
         <item itemvalue="Application.EjemploMatircesFor" />
         <item itemvalue="Application.EjemploMatrices" />
         <item itemvalue="Application.Tarea5Seccion12" />
         <item itemvalue="Application.Tarea4Seccion12" />
-        <item itemvalue="Application.Tarea3Seccion12" />
       </list>
     </recent_temporary>
   </component>
