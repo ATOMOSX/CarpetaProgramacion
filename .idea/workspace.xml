@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatricesSumar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatricesSumaFilasColumnas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +57,9 @@
       <recent name="seccion5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploMatricesSumar">
-    <configuration name="EjemploMatircesFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion13.EjemploMatircesFor" />
+  <component name="RunManager" selected="Application.EjemploMatricesSumaFilasColumnas">
+    <configuration name="EjemploMatricesSumaFilasColumnas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion13.EjemploMatricesSumaFilasColumnas" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
@@ -139,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploMatricesSumaFilasColumnas" />
         <item itemvalue="Application.EjemploMatricesSumar" />
         <item itemvalue="Application.EjemploTransponerMatrices" />
         <item itemvalue="Application.EjemploMatricesTranspuestas" />
         <item itemvalue="Application.EjemploMatricesTamanoVariable" />
-        <item itemvalue="Application.EjemploMatircesFor" />
       </list>
     </recent_temporary>
   </component>
