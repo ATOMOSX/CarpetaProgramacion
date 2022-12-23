@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploTransponerMatrices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatricesSumar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
       <recent name="seccion5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploTransponerMatrices">
+  <component name="RunManager" selected="Application.EjemploMatricesSumar">
     <configuration name="EjemploMatircesFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seccion13.EjemploMatircesFor" />
       <module name="CarpetaProgramacion" />
@@ -72,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploMatrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion13.EjemploMatrices" />
+    <configuration name="EjemploMatricesSumar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion13.EjemploMatricesSumar" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploMatricesSumar" />
         <item itemvalue="Application.EjemploTransponerMatrices" />
         <item itemvalue="Application.EjemploMatricesTranspuestas" />
         <item itemvalue="Application.EjemploMatricesTamanoVariable" />
         <item itemvalue="Application.EjemploMatircesFor" />
-        <item itemvalue="Application.EjemploMatrices" />
       </list>
     </recent_temporary>
   </component>
