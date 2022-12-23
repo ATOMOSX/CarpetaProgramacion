@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatricesIdentidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion13/Tarea1Seccion13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion13/Tarea2Seccion13.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +59,7 @@
       <recent name="seccion5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploMatricesIdentidad">
+  <component name="RunManager" selected="Application.Tarea2Seccion13">
     <configuration name="EjemploMatricesIdentidad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seccion13.EjemploMatricesIdentidad" />
       <module name="CarpetaProgramacion" />
@@ -98,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploMatricesTranspuestas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion13.EjemploMatricesTranspuestas" />
+    <configuration name="Tarea1Seccion13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion13.Tarea1Seccion13" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploTransponerMatrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion13.EjemploTransponerMatrices" />
+    <configuration name="Tarea2Seccion13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion13.Tarea2Seccion13" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
@@ -139,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tarea2Seccion13" />
+        <item itemvalue="Application.Tarea1Seccion13" />
         <item itemvalue="Application.EjemploMatricesIdentidad" />
         <item itemvalue="Application.EjemploMatricesSumaFilasColumnas" />
         <item itemvalue="Application.EjemploMatricesSumar" />
-        <item itemvalue="Application.EjemploTransponerMatrices" />
-        <item itemvalue="Application.EjemploMatricesTranspuestas" />
       </list>
     </recent_temporary>
   </component>
