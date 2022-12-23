@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatricesSimetricas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatricesTranspuestas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
       <recent name="seccion5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploMatricesTamanoVariable">
+  <component name="RunManager" selected="Application.EjemploMatricesTranspuestas">
     <configuration name="EjemploMatircesFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seccion13.EjemploMatircesFor" />
       <module name="CarpetaProgramacion" />
@@ -98,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tarea4Seccion12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion12.Tarea4Seccion12" />
+    <configuration name="EjemploMatricesTranspuestas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seccion13.EjemploMatricesTranspuestas" />
       <module name="CarpetaProgramacion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seccion12.*" />
+          <option name="PATTERN" value="Seccion13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploMatricesTranspuestas" />
         <item itemvalue="Application.EjemploMatricesTamanoVariable" />
         <item itemvalue="Application.EjemploMatircesFor" />
         <item itemvalue="Application.EjemploMatrices" />
         <item itemvalue="Application.Tarea5Seccion12" />
-        <item itemvalue="Application.Tarea4Seccion12" />
       </list>
     </recent_temporary>
   </component>
