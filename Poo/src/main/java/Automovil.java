@@ -4,6 +4,7 @@ public class Automovil {
     public String modelo;
     public String color = "Blanco";
     public double cilindrada;
+    int capacidadTanque = 40;
 
     public String detalle(){
 
@@ -35,5 +36,17 @@ public class Automovil {
         String acelerar = this.acelerar(rpm);
         String frenar = this.frenar();
         return acelerar + "\n" + frenar;
+    }
+
+    public double calcularConsumo(int km, float porcentajeBencina){
+
+        double consumo = km / (capacidadTanque * porcentajeBencina);
+        return consumo;
+    }
+
+    public double calcularConsumo(int km, int porcentajeBencina){
+
+        double consumo = km / (capacidadTanque * (porcentajeBencina / 100d));
+        return consumo;
     }
 }
