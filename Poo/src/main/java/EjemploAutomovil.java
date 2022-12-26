@@ -16,7 +16,12 @@ public class EjemploAutomovil {
         mazda.color = "Rojo";
 
         System.out.println(subaru.detalle());
+        System.out.println(subaru.acelerar(2500));
+        System.out.println(subaru.frenar());
+
         System.out.println(mazda.detalle());
+        System.out.println(mazda.acelerarFrenar(3000));
+
     }
 
 }

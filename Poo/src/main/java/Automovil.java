@@ -17,4 +17,23 @@ public class Automovil {
 
         return stringBuilder.toString();
     }
+
+    public String acelerar(int rpm){
+
+        String aceleracion = "El auto " + this.fabricante + "acelerand a " + rpm + "rpm";
+        return aceleracion;
+    }
+
+    public String frenar(){
+
+        String frenando = this.fabricante + " " + this.modelo + " frenando!";
+        return frenando;
+    }
+
+    public String acelerarFrenar(int rpm){
+
+        String acelerar = this.acelerar(rpm);
+        String frenar = this.frenar();
+        return acelerar + "\n" + frenar;
+    }
 }
