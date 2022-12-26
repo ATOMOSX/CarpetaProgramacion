@@ -51,43 +51,43 @@ public class Automovil {
         return consumo;
     }
 
-    public String leerFabricante(){
+    public String getFabricante() {
         return fabricante;
     }
 
-    public void asignarFabricante(String fabricante){
+    public void setFabricante(String fabricante) {
         this.fabricante = fabricante;
     }
 
-    public String leerModelo(){
+    public String getModelo() {
         return modelo;
     }
 
-    public void asignarModelo(String modelo){
+    public void setModelo(String modelo) {
         this.modelo = modelo;
     }
 
-    public String leerColor(){
+    public String getColor() {
         return color;
     }
 
-    public void asignarColor(String color){
+    public void setColor(String color) {
         this.color = color;
     }
 
-    public double leerCilindrada(){
+    public double getCilindrada() {
         return cilindrada;
     }
 
-    public void asignarCilindrada(double cilindrada){
+    public void setCilindrada(double cilindrada) {
         this.cilindrada = cilindrada;
     }
 
-    public int leerCapacidadTanque(){
+    public int getCapacidadTanque() {
         return capacidadTanque;
     }
 
-    public void asignarCapacidadTanque(int capacidadTanque){
+    public void setCapacidadTanque(int capacidadTanque) {
         this.capacidadTanque = capacidadTanque;
     }
 }
