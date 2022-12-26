@@ -1,10 +1,11 @@
 public class Automovil {
 
-    public String fabricante;
-    public String modelo;
-    public String color = "Blanco";
-    public double cilindrada;
-    int capacidadTanque = 40;
+    private String fabricante;
+    private String modelo;
+    private String color = "Blanco";
+    private double cilindrada;
+    private int capacidadTanque = 40;
+
 
     public String detalle(){
 
@@ -48,5 +49,45 @@ public class Automovil {
 
         double consumo = km / (capacidadTanque * (porcentajeBencina / 100d));
         return consumo;
+    }
+
+    public String leerFabricante(){
+        return fabricante;
+    }
+
+    public void asignarFabricante(String fabricante){
+        this.fabricante = fabricante;
+    }
+
+    public String leerModelo(){
+        return modelo;
+    }
+
+    public void asignarModelo(String modelo){
+        this.modelo = modelo;
+    }
+
+    public String leerColor(){
+        return color;
+    }
+
+    public void asignarColor(String color){
+        this.color = color;
+    }
+
+    public double leerCilindrada(){
+        return cilindrada;
+    }
+
+    public void asignarCilindrada(double cilindrada){
+        this.cilindrada = cilindrada;
+    }
+
+    public int leerCapacidadTanque(){
+        return capacidadTanque;
+    }
+
+    public void asignarCapacidadTanque(int capacidadTanque){
+        this.capacidadTanque = capacidadTanque;
     }
 }
