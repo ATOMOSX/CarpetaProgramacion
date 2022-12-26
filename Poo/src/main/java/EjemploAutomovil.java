@@ -9,7 +9,7 @@ public class EjemploAutomovil {
         mazda.setCilindrada(3000.0);
         mazda.setColor("Rojo");
 
-        Automovil nissan = new Automovil();
+        Automovil nissan = new Automovil("Nissan", "GTR", "Blanco", 5000.0, 50);
 
         System.out.println(subaru.detalle());
         System.out.println(subaru.acelerar(2500));
@@ -19,6 +19,9 @@ public class EjemploAutomovil {
         System.out.println(mazda.detalle());
         System.out.println(mazda.acelerarFrenar(3000));
         System.out.println("Kilometros por litros " + subaru.calcularConsumo(300, 60));
+
+        System.out.println(nissan.detalle());
+        System.out.println("Kilometros por litros " + nissan.calcularConsumo(300, 60));
 
     }
 
