@@ -10,10 +10,17 @@ public class EjemploAutomovil {
         mazda.setColor("Rojo");
 
         Automovil nissan = new Automovil("Nissan", "GTR", "Blanco", 5000.0, 50);
+
         Automovil nissan2 = new Automovil("Nissan", "GTR", "Blanco", 5000.0, 50);
+
+        Automovil kia = new Automovil();
 
         System.out.println("Son iguales? " + (nissan == nissan2));
         System.out.println("Son iguales con equals? " + (nissan.equals(nissan2)));
+        System.out.println("Son iguales con equals? " + (kia.equals(nissan2)));
+        System.out.println();
+        System.out.println(nissan);
+        System.out.println(nissan.toString());
 
         System.out.println(subaru.detalle());
         System.out.println(subaru.acelerar(2500));

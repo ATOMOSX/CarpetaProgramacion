@@ -76,9 +76,28 @@ public class Automovil {
 
     @Override
     public boolean equals(Object obj) {
+
+        if (this == obj){
+            return true;
+        }
+
+        if (!(obj instanceof Automovil)){
+            return false;
+        }
         Automovil automovil = (Automovil) obj;
-        return (this.fabricante.equalsIgnoreCase(automovil.getFabricante()) &&
-                this.modelo.equalsIgnoreCase(automovil.getModelo()));
+        return (this.fabricante != null &&this.fabricante.equalsIgnoreCase(automovil.getFabricante()) &&
+                this.modelo != null && this.modelo.equalsIgnoreCase(automovil.getModelo()));
+    }
+
+    @Override
+    public String toString() {
+        return "Automovil{" +
+                "fabricante ='" + fabricante + '\'' +
+                ", modelo ='" + modelo + '\'' +
+                ", color ='" + color + '\'' +
+                ", cilindrada =" + cilindrada +
+                ", capacidadTanque =" + capacidadTanque +
+                '}';
     }
 
     public String getFabricante() {
