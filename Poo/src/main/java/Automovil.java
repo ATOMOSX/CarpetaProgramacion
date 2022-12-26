@@ -74,6 +74,13 @@ public class Automovil {
         return consumo;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        Automovil automovil = (Automovil) obj;
+        return (this.fabricante.equalsIgnoreCase(automovil.getFabricante()) &&
+                this.modelo.equalsIgnoreCase(automovil.getModelo()));
+    }
+
     public String getFabricante() {
         return fabricante;
     }
