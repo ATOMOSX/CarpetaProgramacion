@@ -3,15 +3,15 @@ public class EjemploAutomovil {
 
         Automovil subaru = new Automovil("Subaru", "Impreza" );
         subaru.setCilindrada(1926.5);
-        subaru.setColor("Negro");
+        subaru.setColor(Color.GRIS);
 
         Automovil mazda = new Automovil("Mazda", "Mx-5");
         mazda.setCilindrada(3000.0);
-        mazda.setColor("Rojo");
+        mazda.setColor(Color.AMARILLO);
 
-        Automovil nissan = new Automovil("Nissan", "GTR", "Blanco", 5000.0, 50);
+        Automovil nissan = new Automovil("Nissan", "GTR", Color.AZUL, 5000.0, 50);
 
-        Automovil nissan2 = new Automovil("Nissan", "GTR", "Blanco", 5000.0, 50);
+        Automovil nissan2 = new Automovil("Nissan", "GTR", Color.BLANCO, 5000.0, 50);
 
         Automovil kia = new Automovil();
 
