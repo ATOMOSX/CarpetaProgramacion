@@ -1,14 +1,23 @@
 public class Automovil {
 
+    private int id;
     private String fabricante;
     private String modelo;
     private String color = "Blanco";
     private double cilindrada;
     private int capacidadTanque = 40;
+
     private static String colorPatente =  "naranja";
     private static int capacidadTanqueEstatico = 30;
+    private static int ultimoId;
+
+    public Automovil() {
+        this.id = ++ultimoId;
+
+    }
 
     public Automovil(String fabricante, String modelo) {
+        this();
         this.fabricante = fabricante;
         this.modelo = modelo;
     }
@@ -28,15 +37,12 @@ public class Automovil {
         this.capacidadTanque = capacidadTanque;
     }
 
-    public Automovil() {
-
-    }
-
     public String detalle(){
 
         StringBuilder stringBuilder = new StringBuilder();
 
-        stringBuilder.append("automovil.color = " + this.color);
+        stringBuilder.append("auto.id = " + this.id);
+        stringBuilder.append("\nautomovil.color = " + this.color);
         stringBuilder.append("\nautomovil.fabricante = " + this.fabricante);
         stringBuilder.append("\nautomovil.modelo = " + this.modelo);
         stringBuilder.append("\nautomovil.cilindrada = " + this.cilindrada);
@@ -76,9 +82,9 @@ public class Automovil {
         return consumo;
     }
 
-    public static double calcularConsumoEstatico(int km, int porcentajeBencina){
+    public static float calcularConsumoEstatico(int km, int porcentajeBencina){
 
-        double consumo = km / (Automovil.capacidadTanqueEstatico * (porcentajeBencina / 100d));
+        float consumo = (float) (km / (Automovil.capacidadTanqueEstatico * (porcentajeBencina / 100d)));
         return consumo;
     }
 
@@ -99,13 +105,15 @@ public class Automovil {
 
     @Override
     public String toString() {
-        return "Automovil{" +
-                "fabricante ='" + fabricante + '\'' +
-                ", modelo ='" + modelo + '\'' +
-                ", color ='" + color + '\'' +
-                ", cilindrada =" + cilindrada +
-                ", capacidadTanque =" + capacidadTanque +
-                '}' ;
+        return this.id + " : " + fabricante + " " + modelo;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getFabricante() {
@@ -162,5 +170,13 @@ public class Automovil {
 
     public static void setCapacidadTanqueEstatico(int capacidadTanqueEstatico) {
         Automovil.capacidadTanqueEstatico = capacidadTanqueEstatico;
+    }
+
+    public static int getUltimoId() {
+        return ultimoId;
+    }
+
+    public static void setUltimoId(int ultimoId) {
+        Automovil.ultimoId = ultimoId;
     }
 }

@@ -18,8 +18,10 @@ public class EjemploAutomovilStatic {
 
         Automovil kia = new Automovil();
 
+        Automovil.setCapacidadTanqueEstatico(50);
         Automovil.setColorPatente("Amarillo");
         System.out.println("Automovil.getColorPatente() = " + Automovil.getColorPatente());
+        System.out.println("Kilometros por litros = " + Automovil.calcularConsumoEstatico(300, 600));
 
 
 
