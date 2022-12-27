@@ -6,6 +6,7 @@ public class Automovil {
     private Color color = Color.GRIS;
     private double cilindrada;
     private int capacidadTanque = 40;
+    private TipoAtumovil tipo;
 
     private static Color colorPatente = Color.NARANJA;
     private static int capacidadTanqueEstatico = 30;
@@ -54,6 +55,7 @@ public class Automovil {
         stringBuilder.append("\nautomovil.color = " + this.color.getColor());
         stringBuilder.append("\nautomovil.fabricante = " + this.fabricante);
         stringBuilder.append("\nautomovil.modelo = " + this.modelo);
+        stringBuilder.append("\nauto.tipo = " + this.getTipo().getDescripcion());
         stringBuilder.append("\nautomovil.cilindrada = " + this.cilindrada);
         stringBuilder.append("\nauto.patenteColor = " + colorPatente.getColor());
         System.out.println();
@@ -163,6 +165,14 @@ public class Automovil {
 
     public void setCapacidadTanque(int capacidadTanque) {
         this.capacidadTanque = capacidadTanque;
+    }
+
+    public TipoAtumovil getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(TipoAtumovil tipo) {
+        this.tipo = tipo;
     }
 
     public static Color getColorPatente() {
