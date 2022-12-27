@@ -3,15 +3,22 @@ public class Automovil {
     private int id;
     private String fabricante;
     private String modelo;
-    private String color = "Blanco";
+    private String color = COLOR_BLANCO;
     private double cilindrada;
     private int capacidadTanque = 40;
 
     private static String colorPatente =  "naranja";
     private static int capacidadTanqueEstatico = 30;
     private static int ultimoId;
+
     public static final Integer VELOCIDAD_MAX_CARRETERA = 120;
     public static final Integer VELOCIDAD_MAX_CIUDAD = 50;
+
+    public static final String COLOR_ROJO = "Rojo";
+    public static final String COLOR_AZUL = "Azul";
+    public static final String COLOR_AMARILLO = "Amarillo";
+    public static final String COLOR_BLANCO = "Blanco";
+    public static final String COLOR_GRIS = "Gris";
 
     public Automovil() {
         this.id = ++ultimoId;

@@ -3,18 +3,18 @@ public class EjemploAutomovilStatic {
 
         Automovil subaru = new Automovil("Subaru", "Impreza" );
         subaru.setCilindrada(1926.5);
-        subaru.setColor("Negro");
+        subaru.setColor(Automovil.COLOR_GRIS);
         System.out.println(subaru.detalle());
 
         Automovil mazda = new Automovil("Mazda", "Mx-5");
         mazda.setCilindrada(3000.0);
-        mazda.setColor("Rojo");
+        mazda.setColor(Automovil.COLOR_ROJO);
         System.out.println(mazda.detalle());
 
-        Automovil nissan = new Automovil("Nissan", "GTR", "Blanco", 5000.0, 50);
+        Automovil nissan = new Automovil("Nissan", "GTR", Automovil.COLOR_BLANCO, 5000.0, 50);
         System.out.println(nissan.detalle());
 
-        Automovil nissan2 = new Automovil("Nissan", "GTR", "Blanco", 5000.0, 50);
+        Automovil nissan2 = new Automovil("Nissan", "GTR", Automovil.COLOR_BLANCO, 5000.0, 50);
 
         Automovil kia = new Automovil();
 
