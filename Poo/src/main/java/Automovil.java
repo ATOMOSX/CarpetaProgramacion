@@ -10,6 +10,8 @@ public class Automovil {
     private static String colorPatente =  "naranja";
     private static int capacidadTanqueEstatico = 30;
     private static int ultimoId;
+    public static final Integer VELOCIDAD_MAX_CARRETERA = 120;
+    public static final Integer VELOCIDAD_MAX_CIUDAD = 50;
 
     public Automovil() {
         this.id = ++ultimoId;

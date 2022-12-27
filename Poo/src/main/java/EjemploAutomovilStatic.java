@@ -23,6 +23,9 @@ public class EjemploAutomovilStatic {
         System.out.println("Automovil.getColorPatente() = " + Automovil.getColorPatente());
         System.out.println("Kilometros por litros = " + Automovil.calcularConsumoEstatico(300, 600));
 
+        System.out.println("Velocidad Maxima en carretera: " + Automovil.VELOCIDAD_MAX_CARRETERA);
+        System.out.println("Velocidad Maxima en la ciudad: " + Automovil.VELOCIDAD_MAX_CIUDAD);
+
 
 
 
