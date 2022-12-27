@@ -5,6 +5,8 @@ public class Automovil {
     private String color = "Blanco";
     private double cilindrada;
     private int capacidadTanque = 40;
+    private static String colorPatente =  "naranja";
+    private static int capacidadTanqueEstatico = 30;
 
     public Automovil(String fabricante, String modelo) {
         this.fabricante = fabricante;
@@ -38,6 +40,7 @@ public class Automovil {
         stringBuilder.append("\nautomovil.fabricante = " + this.fabricante);
         stringBuilder.append("\nautomovil.modelo = " + this.modelo);
         stringBuilder.append("\nautomovil.cilindrada = " + this.cilindrada);
+        stringBuilder.append("\nauto.patenteColor = " + colorPatente);
         System.out.println();
 
         return stringBuilder.toString();
@@ -64,13 +67,18 @@ public class Automovil {
 
     public double calcularConsumo(int km, float porcentajeBencina){
 
-        double consumo = km / (capacidadTanque * porcentajeBencina);
-        return consumo;
+        return km / (capacidadTanque * porcentajeBencina);
     }
 
     public double calcularConsumo(int km, int porcentajeBencina){
 
         double consumo = km / (capacidadTanque * (porcentajeBencina / 100d));
+        return consumo;
+    }
+
+    public static double calcularConsumoEstatico(int km, int porcentajeBencina){
+
+        double consumo = km / (Automovil.capacidadTanqueEstatico * (porcentajeBencina / 100d));
         return consumo;
     }
 
@@ -97,7 +105,7 @@ public class Automovil {
                 ", color ='" + color + '\'' +
                 ", cilindrada =" + cilindrada +
                 ", capacidadTanque =" + capacidadTanque +
-                '}';
+                '}' ;
     }
 
     public String getFabricante() {
@@ -138,5 +146,21 @@ public class Automovil {
 
     public void setCapacidadTanque(int capacidadTanque) {
         this.capacidadTanque = capacidadTanque;
+    }
+
+    public static String getColorPatente() {
+        return colorPatente;
+    }
+
+    public static void setColorPatente(String colorPatente) {
+        Automovil.colorPatente = colorPatente;
+    }
+
+    public static int getCapacidadTanqueEstatico() {
+        return capacidadTanqueEstatico;
+    }
+
+    public static void setCapacidadTanqueEstatico(int capacidadTanqueEstatico) {
+        Automovil.capacidadTanqueEstatico = capacidadTanqueEstatico;
     }
 }
