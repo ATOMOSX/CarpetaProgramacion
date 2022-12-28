@@ -27,6 +27,14 @@ public class EjemploAutomovilEnum {
             case SEDAN -> System.out.println("Es un automovil mediano o commune y corriente");
         }
 
+        TipoAtumovil[] tipos = TipoAtumovil.values();
+        for (TipoAtumovil tipoAtumovil : tipos){
+            System.out.println(tipoAtumovil + " => " + tipoAtumovil.name() + ", " +
+                    tipoAtumovil.getNombre() + ", " + tipoAtumovil.getDescripcion() +
+                    ", " + tipoAtumovil.getNumeroPuertas());
+            System.out.println();
+        }
+
 
 
 
