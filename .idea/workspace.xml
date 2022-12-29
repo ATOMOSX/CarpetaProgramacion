@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Poo/src/main/java/EjemploAutomovilRelacionesObjetos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Poo/src/main/java/Automovil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poo/src/main/java/Automovil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +65,7 @@
       <recent name="Seccion7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploAutomovil">
+  <component name="RunManager" selected="Application.EjemploAutomovilRelacionesObjetos">
     <configuration name="EjemploAutomovil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EjemploAutomovil" />
       <module name="POO" />
@@ -78,22 +80,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploAutomovilStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjemploAutomovilStatic" />
+    <configuration name="EjemploAutomovilRelacionesObjetos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjemploAutomovilRelacionesObjetos" />
       <module name="POO" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tarea1Seccion13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seccion13.Tarea1Seccion13" />
-      <module name="CarpetaProgramacion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Seccion13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="EjemploAutomovilStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjemploAutomovilStatic" />
+      <module name="POO" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploAutomovilRelacionesObjetos" />
         <item itemvalue="Application.EjemploAutomovil" />
         <item itemvalue="Application.EjemploAutomovilEnum" />
         <item itemvalue="Application.EjemploAutomovilStatic" />
         <item itemvalue="Application.Tarea2Seccion13" />
-        <item itemvalue="Application.Tarea1Seccion13" />
       </list>
     </recent_temporary>
   </component>

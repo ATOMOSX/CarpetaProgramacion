@@ -71,9 +71,20 @@ public class Automovil {
         if (this.motor != null) {
             stringBuilder.append("\nautomovil.cilindrada = " + this.motor.getCilindrada());
         }
-        
+
         stringBuilder.append("\nauto.patenteColor = " + colorPatente.getColor());
         System.out.println();
+        if (getPropietario()  != null) {
+            stringBuilder.append("\nPropietario del automovil: " + this.getPropietario());
+        }
+
+        if (getRuedas() != null) {
+            for (Rueda rueda : this.getRuedas()) {
+                stringBuilder.append("\nRuedas del automovil:");
+                stringBuilder.append("\n" + rueda.getFabricante() + ", aro: " + rueda.getAncho() +
+                        ", ancho: " + rueda.getRadio() + " ");
+            }
+        }
 
         return stringBuilder.toString();
     }
