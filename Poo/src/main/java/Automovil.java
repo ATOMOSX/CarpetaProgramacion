@@ -68,7 +68,10 @@ public class Automovil {
             stringBuilder.append("\nauto.tipo = " + this.getTipo().getDescripcion());
         }
 
-        stringBuilder.append("\nautomovil.cilindrada = " + this.motor.getCilindrada());
+        if (this.motor != null) {
+            stringBuilder.append("\nautomovil.cilindrada = " + this.motor.getCilindrada());
+        }
+        
         stringBuilder.append("\nauto.patenteColor = " + colorPatente.getColor());
         System.out.println();
 
@@ -178,6 +181,9 @@ public class Automovil {
     }
 
     public Estanque getEstanque() {
+        if (estanque == null){
+            this.estanque = new Estanque();
+        }
         return estanque;
     }
 
