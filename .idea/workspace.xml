@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Poo/src/main/java/EnumTipoMotor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poo/src/main/java/Estanque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poo/src/main/java/Motor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poo/src/main/java/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poo/src/main/java/Rueda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poo/src/main/java/Automovil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poo/src/main/java/Automovil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poo/src/main/java/EjemploAutomovil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poo/src/main/java/EjemploAutomovil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poo/src/main/java/EjemploAutomovilEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poo/src/main/java/EjemploAutomovilEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poo/src/main/java/EjemploAutomovilStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poo/src/main/java/EjemploAutomovilStatic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <recent name="Seccion7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploAutomovilEnum">
+  <component name="RunManager" selected="Application.EjemploAutomovil">
     <configuration name="EjemploAutomovil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EjemploAutomovil" />
       <module name="POO" />
@@ -131,9 +130,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploAutomovil" />
         <item itemvalue="Application.EjemploAutomovilEnum" />
         <item itemvalue="Application.EjemploAutomovilStatic" />
-        <item itemvalue="Application.EjemploAutomovil" />
         <item itemvalue="Application.Tarea2Seccion13" />
         <item itemvalue="Application.Tarea1Seccion13" />
       </list>

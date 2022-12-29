@@ -4,9 +4,11 @@ public class Automovil {
     private String fabricante;
     private String modelo;
     private Color color = Color.GRIS;
-    private double cilindrada;
-    private int capacidadTanque = 40;
+    private Motor motor;
+    private Estanque estanque;
     private TipoAtumovil tipo;
+    private Persona propietario;
+    private Rueda[] ruedas;
 
     private static Color colorPatente = Color.NARANJA;
     private static int capacidadTanqueEstatico = 30;
@@ -37,14 +39,20 @@ public class Automovil {
         this.color = color;
     }
 
-    public Automovil(String fabricante, String modelo, Color color, double cilindrada) {
+    public Automovil(String fabricante, String modelo, Color color, Motor motor) {
         this(fabricante, modelo, color);
-        this.cilindrada = cilindrada;
+        this.motor = motor;
     }
 
-    public Automovil(String fabricante, String modelo, Color color, double cilindrada, int capacidadTanque) {
-        this(fabricante, modelo, color, cilindrada);
-        this.capacidadTanque = capacidadTanque;
+    public Automovil(String fabricante, String modelo, Color color, Motor motor, Estanque estanque) {
+        this(fabricante, modelo, color, motor);
+        this.estanque = estanque;
+    }
+
+    public Automovil(String fabricante, String modelo, Color color, Motor motor, Estanque estanque, TipoAtumovil tipo, Persona propietario) {
+        this(fabricante, modelo, color, motor, estanque);
+        this.tipo = tipo;
+        this.propietario = propietario;
     }
 
     public String detalle(){
@@ -55,8 +63,12 @@ public class Automovil {
         stringBuilder.append("\nautomovil.color = " + this.color.getColor());
         stringBuilder.append("\nautomovil.fabricante = " + this.fabricante);
         stringBuilder.append("\nautomovil.modelo = " + this.modelo);
-        stringBuilder.append("\nauto.tipo = " + this.getTipo().getDescripcion());
-        stringBuilder.append("\nautomovil.cilindrada = " + this.cilindrada);
+
+        if (this.getTipo() != null) {
+            stringBuilder.append("\nauto.tipo = " + this.getTipo().getDescripcion());
+        }
+
+        stringBuilder.append("\nautomovil.cilindrada = " + this.motor.getCilindrada());
         stringBuilder.append("\nauto.patenteColor = " + colorPatente.getColor());
         System.out.println();
 
@@ -83,13 +95,11 @@ public class Automovil {
     }
 
     public double calcularConsumo(int km, float porcentajeBencina){
-
-        return km / (capacidadTanque * porcentajeBencina);
+        return km / (this.getEstanque().getCapacidad() * porcentajeBencina);
     }
 
     public double calcularConsumo(int km, int porcentajeBencina){
-
-        double consumo = km / (capacidadTanque * (porcentajeBencina / 100d));
+        double consumo = km / (this.getEstanque().getCapacidad() * (porcentajeBencina / 100d));
         return consumo;
     }
 
@@ -151,28 +161,44 @@ public class Automovil {
         this.color = color;
     }
 
-    public double getCilindrada() {
-        return cilindrada;
-    }
-
-    public void setCilindrada(double cilindrada) {
-        this.cilindrada = cilindrada;
-    }
-
-    public int getCapacidadTanque() {
-        return capacidadTanque;
-    }
-
-    public void setCapacidadTanque(int capacidadTanque) {
-        this.capacidadTanque = capacidadTanque;
-    }
-
     public TipoAtumovil getTipo() {
         return tipo;
     }
 
     public void setTipo(TipoAtumovil tipo) {
         this.tipo = tipo;
+    }
+
+    public Motor getMotor() {
+        return motor;
+    }
+
+    public void setMotor(Motor motor) {
+        this.motor = motor;
+    }
+
+    public Estanque getEstanque() {
+        return estanque;
+    }
+
+    public void setEstanque(Estanque estanque) {
+        this.estanque = estanque;
+    }
+
+    public Persona getPropietario() {
+        return propietario;
+    }
+
+    public void setPropietario(Persona propietario) {
+        this.propietario = propietario;
+    }
+
+    public Rueda[] getRuedas() {
+        return ruedas;
+    }
+
+    public void setRuedas(Rueda[] ruedas) {
+        this.ruedas = ruedas;
     }
 
     public static Color getColorPatente() {
