@@ -1,4 +1,4 @@
-public class Automovil {
+public class Automovil implements Comparable <Automovil> {
 
     private int id;
     private String fabricante;
@@ -80,7 +80,9 @@ public class Automovil {
             stringBuilder.append("\nPropietario del automovil: " + this.getPropietario());
         }
 
-        if (getRuedas() != null) {
+        if (this.getRuedas() == null) {
+
+        }else {
             for (Rueda rueda : this.getRuedas()) {
                 stringBuilder.append("\nRuedas del automovil:");
                 stringBuilder.append("\n").append(rueda.getFabricante()).append(", aro: ").append(rueda.getAncho()).append(", ancho: ").append(rueda.getRadio()).append(" ");
@@ -247,5 +249,10 @@ public class Automovil {
 
     public static void setUltimoId(int ultimoId) {
         Automovil.ultimoId = ultimoId;
+    }
+
+    @Override
+    public int compareTo(Automovil a) {
+        return this.propietario.toString().compareTo(a.propietario.toString());
     }
 }
