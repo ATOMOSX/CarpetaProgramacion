@@ -1,49 +1,25 @@
-# CarpetaProgramacion
+# Proyecto orden de compra
 
-## Sección 2
+La tarea es crear un proyecto nuevo llamado ProyectoOrdenCompra de la siguiente manera:
 
-Variables
+* Se requiere crear la clase OrdenCompra con los siguientes campos privados: identificador tipo Integer autoincremental, descripcion String, fecha tipo Date, cliente del tipo Cliente y finalmente un atributo de tipo arreglo de productos con 4 elementos: Producto[] productos.
 
-## Sección 3
+* En la clase OrdenCompra, crear constructor que inicialice solo la descripción.
 
-Tipo String(Cadenas)
+* En la clase OrdenCompra, crear métodos getter para todos los atributos.
 
-## Sección 4
+* En la clase OrdenCompra implementar sólo métodos set para cliente y fecha.
 
-Operadores
+* Respecto a los productos de la clase OrdenCompra, sólo se pueden agregar usando el método public void addProducto (Producto producto), nada más, es decir no se pueden agregar en el constructor ni en métodos setter.
 
-## Sección 5
+* La clase OrdenCompra debe tener un método que devuelva el gran total, sumando los precios de los productos.
 
-Flujos de control
+* Crear la clase Producto con tres atributos fabricante tipo String y nombre String y precio int, inicializar todos sus valores en el constructor e implementar sus respectivos métodos getter.
 
-## Sección 6
+* Crear la clase Cliente con dos atributos nombre y apellido, inicializar todos sus valores en el constructor e implementar sus respectivos métodos getter.
 
-Clases Wrapper
+* Escribir un programa, clase con método main, la cual llamaremos EjemploOrdenes:
 
-## Sección 7
+* Crear tres órdenes, con sus respectivos valores, el cliente, agregar los cuatro productos a cada una, cada orden con distintos productos, que no se repitan.
 
-Valor/Referencia
-
-## Sección 8
-
-Clases Date y Calendar
-
-## Sección 9
-
-Clase System
-
-## Sección 10
-
-Clase Math
-
-## Sección 11
-
-Línea de comando
-
-## Seccion 12
-
-Arreglos
-
-## Seccion 13
-
-Matrices
+* Para cada una imprimir sus valores en consola usando método getter incluyendo los productos, donde con el método getter obtenemos el arreglo de productos y con un foreach recorremos e imprimimos sus atributos fabricante, nombre y precio. Tener en cuenta en la salida el gran total de cada orden, los clientes, todo.
