@@ -5,9 +5,128 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Poo/src/main/java/EjemploAutomovilArreglo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poo/src/main/java/Automovil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poo/src/main/java/Automovil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VariablesYOperadores/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VariablesYOperadores/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/MI_PC.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion10/EjemploClaseMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion10/EjemploClaseMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion10/EjemploClaseMathRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion10/EjemploClaseMathRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion10/EjemploClaseMathRandom2.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion10/EjemploClaseMathRandom2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion10/EjemploClaseMathTrigonometrica.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion10/EjemploClaseMathTrigonometrica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion10/TareaSeccion10.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion10/TareaSeccion10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion11/ArgumentosLineaComando.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion11/ArgumentosLineaComando.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArregloNotasAlumnos.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArregloNotasAlumnos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArregloString.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArregloString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglos.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArreglos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosBuscarEnteros.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArreglosBuscarEnteros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosBuscarString.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArreglosBuscarString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosCombinados.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArreglosCombinados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosCombinados2.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArreglosCombinados2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosDesplazadosPorPosicion.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArreglosDesplazadosPorPosicion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosDesplazadosPorPosicion2.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArreglosDesplazadosPorPosicion2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosDesplazadosPorPosicion2b.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArreglosDesplazadosPorPosicion2b.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosDesplazadosPorPosicion3.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArreglosDesplazadosPorPosicion3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosDesplazadosPorPosicion3b.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArreglosDesplazadosPorPosicion3b.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosDetectarOrden.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArreglosDetectarOrden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArreglosFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosForBurbuja.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArreglosForBurbuja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosForBurbujaOptimizado.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArreglosForBurbujaOptimizado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosForBurbujaReutilizado.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArreglosForBurbujaReutilizado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosForInverso.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArreglosForInverso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosForInversoMutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArreglosForInversoMutable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosNumeroMayor.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArreglosNumeroMayor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosOrdenPrincipioFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArreglosOrdenPrincipioFinal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemploArreglosParesImpares.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemploArreglosParesImpares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/EjemplosArreglosEliminarElemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/EjemplosArreglosEliminarElemento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/Tarea1Seccion12.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/Tarea1Seccion12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/Tarea2Seccion12.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/Tarea2Seccion12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/Tarea3Seccion12.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/Tarea3Seccion12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/Tarea4Seccion12.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/Tarea4Seccion12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion12/Tarea5Seccion12.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion12/Tarea5Seccion12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatircesFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion13/EjemploMatircesFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatircesFor2.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion13/EjemploMatircesFor2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatrices.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion13/EjemploMatrices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatricesBuscarElemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion13/EjemploMatricesBuscarElemento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatricesIdentidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion13/EjemploMatricesIdentidad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatricesMarco.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion13/EjemploMatricesMarco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatricesSimetricas.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion13/EjemploMatricesSimetricas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatricesSumaFilasColumnas.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion13/EjemploMatricesSumaFilasColumnas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatricesSumar.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion13/EjemploMatricesSumar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatricesTamanoVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion13/EjemploMatricesTamanoVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploMatricesTranspuestas.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion13/EjemploMatricesTranspuestas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion13/EjemploTransponerMatrices.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion13/EjemploTransponerMatrices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion13/Tarea1Seccion13.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion13/Tarea1Seccion13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion13/Tarea2Seccion13.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion13/Tarea2Seccion13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion2/DatosPrimitivosBoolean.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion2/DatosPrimitivosBoolean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion2/DatosPrimitivosChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion2/DatosPrimitivosChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion2/DatosPrimitivosEnteros.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion2/DatosPrimitivosEnteros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion2/DeclaracionPrimeraClase.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion2/DeclaracionPrimeraClase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion2/SistemasNumericos.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion2/SistemasNumericos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion2/SistemasNumericosScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion2/SistemasNumericosScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion2/TareaSeccion2.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion2/TareaSeccion2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion3/ConcatenandoString.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion3/ConcatenandoString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion3/CreandoObjetoString.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion3/CreandoObjetoString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion3/StringExtensionArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion3/StringExtensionArchivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion3/StringInmutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion3/StringInmutable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion3/StringMetodos.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion3/StringMetodos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion3/StringMetodosArreglo.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion3/StringMetodosArreglo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion3/StringTestRendimientoConcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion3/StringTestRendimientoConcat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion3/StringValidar.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion3/StringValidar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion3/TareaSeccion3.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion3/TareaSeccion3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion4/OperadorArigmetico.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion4/OperadorArigmetico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion4/OperadorInstanceOf.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion4/OperadorInstanceOf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion4/OperadorInstanceOfAbstracto.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion4/OperadorInstanceOfAbstracto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion4/OperadorTernario.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion4/OperadorTernario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion4/OperadorTernarioNumeroMayor.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion4/OperadorTernarioNumeroMayor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion4/OperadorerTernarioLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion4/OperadorerTernarioLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion4/OperadoresAsignacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion4/OperadoresAsignacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion4/OperadoresIncrementales.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion4/OperadoresIncrementales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion4/OperadoresLogicos.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion4/OperadoresLogicos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion4/OperadoresLogicosLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion4/OperadoresLogicosLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion4/OperadoresRelacionales.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion4/OperadoresRelacionales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion4/OperadoresUnarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion4/OperadoresUnarios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion4/PrecedenciaOperadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion4/PrecedenciaOperadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion4/Tarea1Seccion4.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion4/Tarea1Seccion4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion4/Tarea2Seccion4.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion4/Tarea2Seccion4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion4/Tarea3Seccion4.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion4/Tarea3Seccion4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion5/Tarea4Seccion5.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion5/Tarea4Seccion5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion6/AutoboxingInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion6/AutoboxingInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion6/EjemploGetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion6/EjemploGetClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion6/WrapperBoolean.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion6/WrapperBoolean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion6/WrapperInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion6/WrapperInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion6/WrapperOperadoresRelacionales.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion6/WrapperOperadoresRelacionales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion7/PasarPorReferencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion7/PasarPorReferencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion7/PasarPorReferencia2.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion7/PasarPorReferencia2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion7/PasarPorValor.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion7/PasarPorValor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion8/EjemploJavaUtilCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion8/EjemploJavaUtilCalendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion8/EjemploJavaUtilDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion8/EjemploJavaUtilDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion8/EjemploJavaUtilDateGetTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion8/EjemploJavaUtilDateGetTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion8/EjemploJavaUtilParseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion8/EjemploJavaUtilParseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion8/EjemploJavaUtilParseString2.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion8/EjemploJavaUtilParseString2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion8/TareaSeccion8.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion8/TareaSeccion8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion9/AsignarPropiedadesDelSistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion9/AsignarPropiedadesDelSistema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion9/EjecutarProgramaSistemaOperativo.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion9/EjecutarProgramaSistemaOperativo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion9/EjemploPropiedadesDeSistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion9/EjemploPropiedadesDeSistema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seccion9/EjemploVariablesDeEntorno.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion9/EjemploVariablesDeEntorno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seccion5/SentenciaBucleEtiquetas.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion5/SentenciaBucleEtiquetas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seccion5/SentenciaFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion5/SentenciaFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seccion5/SentenciaForArreglos.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion5/SentenciaForArreglos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seccion5/SentenciaForEach.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion5/SentenciaForEach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seccion5/SentenciaIfElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion5/SentenciaIfElse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seccion5/SentenciaIfElseNumeroDiasMes.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion5/SentenciaIfElseNumeroDiasMes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seccion5/SentenciaSwichCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion5/SentenciaSwichCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seccion5/SentenciaSwichCaseNumeroDiasMes.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion5/SentenciaSwichCaseNumeroDiasMes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seccion5/SentenciaWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion5/SentenciaWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seccion5/SentenciasDeBucleBuscar.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion5/SentenciasDeBucleBuscar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seccion5/Tarea1Seccion5.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion5/Tarea1Seccion5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seccion5/Tarea2Seccion5.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion5/Tarea2Seccion5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seccion5/Tarea3Seccion5.java" beforeDir="false" afterPath="$PROJECT_DIR$/VariablesYOperadores/src/main/java/Seccion5/Tarea3Seccion5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,18 +162,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MI PC/Documents/IngenieriaDeSistemas/Semestre3/Programacion/Repositorios/CarpetaProgramacion/Poo&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "19",
+    "last_opened_file_path": "C:/Users/MI PC/Documents/IngenieriaDeSistemas/Semestre3/Programacion/Repositorios/CarpetaProgramacion/VariablesYOperadores",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\VariablesYOperadores" />
+      <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\VariablesYOperadores\src\main" />
+      <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\VariablesYOperadores\src\main\java" />
+      <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\Poo\TareaPoo" />
       <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\Poo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
