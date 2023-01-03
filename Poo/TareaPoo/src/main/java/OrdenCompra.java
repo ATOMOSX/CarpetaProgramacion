@@ -10,9 +10,13 @@ public class OrdenCompra {
     private Date fecha;
     private Cliente cliente;
     private Producto[] productos;
+    private static int uId;
+    private int indc;
 
     public OrdenCompra(String descripcion) {
         this.descripcion = descripcion;
+        this.identificador = uId++;
+        this.productos = new Producto[4];
     }
 
     public Integer getIdentificador() {
@@ -39,7 +43,7 @@ public class OrdenCompra {
         this.fecha = fecha;
     }
 
-    public Cliente.Cliente getCliente() {
+    public Cliente getCliente() {
         return cliente;
     }
 
@@ -47,7 +51,7 @@ public class OrdenCompra {
         this.cliente = cliente;
     }
 
-    public Producto.Producto[] getProductos() {
+    public Producto[] getProductos() {
         return productos;
     }
 
@@ -56,9 +60,17 @@ public class OrdenCompra {
     }
 
     public OrdenCompra addProducto(Producto producto){
-        if (producto < productos.length){
-            this.productos[producto++] = producto;
+        if (indc < this.productos.length){
+            this.productos[indc++] = producto;
         }
         return this;
+    }
+
+    public int obtenerTotal (){
+        int total = 0;
+        for (Producto producto : productos){
+            total += producto.getPrecio();
+        }
+        return total;
     }
 }
