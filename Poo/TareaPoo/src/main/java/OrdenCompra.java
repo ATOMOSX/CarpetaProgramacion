@@ -73,4 +73,20 @@ public class OrdenCompra {
         }
         return total;
     }
+
+    public static int getuId() {
+        return uId;
+    }
+
+    public static void setuId(int uId) {
+        OrdenCompra.uId = uId;
+    }
+
+    public int getIndc() {
+        return indc;
+    }
+
+    public void setIndc(int indc) {
+        this.indc = indc;
+    }
 }

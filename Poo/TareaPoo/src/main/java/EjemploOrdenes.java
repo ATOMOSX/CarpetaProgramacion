@@ -37,7 +37,7 @@ public class EjemploOrdenes {
             System.out.println("Cliente: " + ordenCompra.getCliente());
             System.out.println("Descripcion: " + ordenCompra.getDescripcion());
             System.out.println("Fecha: " + ordenCompra.getFecha());
-            System.out.println("Total: " + ordenCompra.obtenerTotal());
+            //System.out.println("Total: " + ordenCompra.obtenerTotal());
 
             int i = 0;
             for (Producto producto : ordenCompra.getProductos()){
