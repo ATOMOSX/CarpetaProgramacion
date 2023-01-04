@@ -22,6 +22,32 @@ public class Factura {
         this.fecha = new Date();
     }
 
+    public float calcularTotal(){
+        float total = 0.0f;
+        for (ItemFactura item : this.items){
+            if (item == null){
+                continue;
+            }
+            total += item.calcularImporte();
+        }
+        return total;
+    }
+
+    public String generarDetalle() {
+        StringBuilder stringBuilder = new StringBuilder("Factura N°: ");
+        stringBuilder.append(folio)
+                .append("\n cliente: ")
+                .append(this.cliente.getNombre())
+                .append("Nif: ")
+                .append(cliente.getNif())
+                .append("\nDescripcion: ")
+                .append(this.descripcion)
+                .append("\n")
+                .append("\n#\t nombre \t Precio \t Cant. \t Total \n");
+
+        return stringBuilder.toString();
+    }
+
     public int getFolio() {
         return folio;
     }
