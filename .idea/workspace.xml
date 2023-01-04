@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Paquetes/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Paquetes/src/main/java/org/juandavid/app/EjemploPaquetes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Paquetes/src/main/java/org/juandavid/app/hogar/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poo/TareaPoo/src/main/java/EjemploOrdenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Poo/TareaPoo/src/main/java/EjemploOrdenes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +75,7 @@
       <recent name="Seccion7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploOrdenes">
+  <component name="RunManager" selected="Application.EjemploPaquetes">
     <configuration name="EjemploAutomovil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EjemploAutomovil" />
       <module name="POO" />
@@ -81,13 +85,6 @@
     </configuration>
     <configuration name="EjemploAutomovilArreglo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EjemploAutomovilArreglo" />
-      <module name="POO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjemploAutomovilEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjemploAutomovilEnum" />
       <module name="POO" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,6 +104,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjemploPaquetes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juandavid.app.EjemploPaquetes" />
+      <module name="Paquetes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.juandavid.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tarea4Seccion5" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seccion5.Tarea4Seccion5" />
       <module name="CarpetaProgramacion" />
@@ -122,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploPaquetes" />
         <item itemvalue="Application.EjemploOrdenes" />
         <item itemvalue="Application.EjemploAutomovilArreglo" />
         <item itemvalue="Application.EjemploAutomovilRelacionesObjetos" />
         <item itemvalue="Application.EjemploAutomovil" />
-        <item itemvalue="Application.EjemploAutomovilEnum" />
       </list>
     </recent_temporary>
   </component>
