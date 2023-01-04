@@ -5,6 +5,10 @@ public class Persona {
     private String nombre;
     private String apellido;
 
+    public String lanzarPelota(){
+        return "Lanza la pelota al perro";
+    }
+
     public Persona(String nombre) {
         this.nombre = nombre;
     }

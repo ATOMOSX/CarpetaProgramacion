@@ -11,11 +11,12 @@ public class EjemploPaquetes {
         persona.setApellido("Lopez Muñoz");
         System.out.println("persona = " + persona.getNombre() + " " + persona.getApellido());
 
-        Gato gato = new Gato();
-
         Perro perro = new Perro();
         perro.setNombre("Sasha");
         perro.setRaza("Criollita");
+
+        String jugando = perro.jugar(persona);
+        System.out.println("jugando = " + jugando);
 
     }
 }

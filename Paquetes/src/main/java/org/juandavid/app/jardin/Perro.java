@@ -1,9 +1,15 @@
 package org.juandavid.app.jardin;
 
+import org.juandavid.app.hogar.Persona;
+
 public class Perro {
 
     private String nombre;
     private String raza;
+
+    String jugar(Persona persona){
+        return persona.lanzarPelota();
+    }
 
     public Perro(String nombre, String raza) {
         this.nombre = nombre;
