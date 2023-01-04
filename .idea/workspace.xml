@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AppFacturas/src/main/java/org/juand/appfacturas/EjemploFactura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppFacturas/src/main/java/org/juand/appfacturas/modelo/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppFacturas/src/main/java/org/juand/appfacturas/modelo/Factura.java" afterDir="false" />
     </list>
@@ -71,14 +72,7 @@
       <recent name="Seccion7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploPaquetes">
-    <configuration name="EjemploAutomovil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjemploAutomovil" />
-      <module name="POO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.EjemploFactura">
     <configuration name="EjemploAutomovilArreglo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EjemploAutomovilArreglo" />
       <module name="POO" />
@@ -89,6 +83,19 @@
     <configuration name="EjemploAutomovilRelacionesObjetos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EjemploAutomovilRelacionesObjetos" />
       <module name="POO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploFactura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.appfacturas.EjemploFactura" />
+      <module name="AppFacturas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.juand.appfacturas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploFactura" />
         <item itemvalue="Application.EjemploPaquetes" />
         <item itemvalue="Application.EjemploOrdenes" />
         <item itemvalue="Application.EjemploAutomovilArreglo" />
         <item itemvalue="Application.EjemploAutomovilRelacionesObjetos" />
-        <item itemvalue="Application.EjemploAutomovil" />
       </list>
     </recent_temporary>
   </component>

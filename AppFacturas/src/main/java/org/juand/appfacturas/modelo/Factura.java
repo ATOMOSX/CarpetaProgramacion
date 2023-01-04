@@ -37,33 +37,33 @@ public class Factura {
     public String generarDetalle() {
         StringBuilder stringBuilder = new StringBuilder("Factura N°: ");
         stringBuilder.append(folio)
-                .append("\n cliente: ")
+                .append("cliente: ")
                 .append(this.cliente.getNombre())
-                .append("Nif: ")
+                .append("\nNif: ")
                 .append(cliente.getNif())
                 .append("\nDescripcion: ")
                 .append(this.descripcion)
-                .append("\n")
-                .append("\n#\t nombre \t Precio \t Cant. \t Total \n");
-
-        SimpleDateFormat dateFormat = new SimpleDateFormat("dd ' de ' MMMM ' yyyy");
-        stringBuilder.append("Fecha emision: ")
-                .append(dateFormat.format(this.fecha))
                 .append("\n");
 
-        for (ItemFactura itemFactura : this.items){
-            if (itemFactura == null){
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd 'de' MMMM  yyyy");
+        stringBuilder.append("Fecha emision: ")
+                .append(dateFormat.format(this.fecha))
+                .append("\n")
+                .append("\n#\t nombre\t Precio\t Cant.\tTotal\n");
+
+        for (ItemFactura item : items){
+            if (item == null){
                 continue;
             }
-            stringBuilder.append(itemFactura.getProducto().getCodigo())
+            stringBuilder.append(item.getProducto().getCodigo())
                     .append("\t")
-                    .append(itemFactura.getProducto().getNombre())
+                    .append(item.getProducto().getNombre())
                     .append("\t")
-                    .append(itemFactura.getProducto().getPrecio())
+                    .append(item.getProducto().getPrecio())
                     .append("\t")
-                    .append(itemFactura.getCantidad())
+                    .append(item.getCantidad())
                     .append("\t")
-                    .append(itemFactura.calcularImporte())
+                    .append(item.calcularImporte())
                     .append("\n");
         }
         stringBuilder.append("\nGran total: ")
