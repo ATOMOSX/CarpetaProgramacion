@@ -1,5 +1,6 @@
 package org.juand.appfacturas.modelo;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Factura {
@@ -44,6 +45,29 @@ public class Factura {
                 .append(this.descripcion)
                 .append("\n")
                 .append("\n#\t nombre \t Precio \t Cant. \t Total \n");
+
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd ' de ' MMMM ' yyyy");
+        stringBuilder.append("Fecha emision: ")
+                .append(dateFormat.format(this.fecha))
+                .append("\n");
+
+        for (ItemFactura itemFactura : this.items){
+            if (itemFactura == null){
+                continue;
+            }
+            stringBuilder.append(itemFactura.getProducto().getCodigo())
+                    .append("\t")
+                    .append(itemFactura.getProducto().getNombre())
+                    .append("\t")
+                    .append(itemFactura.getProducto().getPrecio())
+                    .append("\t")
+                    .append(itemFactura.getCantidad())
+                    .append("\t")
+                    .append(itemFactura.calcularImporte())
+                    .append("\n");
+        }
+        stringBuilder.append("\nGran total: ")
+                .append(calcularTotal());
 
         return stringBuilder.toString();
     }
