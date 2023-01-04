@@ -1,4 +1,4 @@
-package org.juandavid.app;
+package org.juandavid.app.jardin;
 
 import org.juandavid.app.hogar.*;
 
@@ -8,9 +8,14 @@ public class EjemploPaquetes {
 
         Persona persona = new Persona();
         persona.setNombre("Juan David");
-        System.out.println("persona = " + persona.getNombre());
+        persona.setApellido("Lopez Muñoz");
+        System.out.println("persona = " + persona.getNombre() + " " + persona.getApellido());
 
         Gato gato = new Gato();
+
+        Perro perro = new Perro();
+        perro.setNombre("Sasha");
+        perro.setRaza("Criollita");
 
     }
 }
