@@ -12,6 +12,7 @@
         <module>POO</module>
         <module>VariablesYOperadores</module>
         <module>Paquetes</module>
+        <module>AppFacturas</module>
     </modules>
 
     <properties>
