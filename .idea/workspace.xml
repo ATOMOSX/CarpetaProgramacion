@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppFacturas/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AppFacturas/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppFacturas/src/main/java/org/juand/appfacturas/EjemploFactura.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppFacturas/src/main/java/org/juand/appfacturas/EjemploFactura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppFacturas/src/main/java/org/juand/appfacturas/modelo/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppFacturas/src/main/java/org/juand/appfacturas/modelo/Factura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppFacturas/src/main/java/org/juand/appfacturas/modelo/ItemFactura.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppFacturas/src/main/java/org/juand/appfacturas/modelo/ItemFactura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppFacturas/src/main/java/org/juand/appfacturas/modelo/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppFacturas/src/main/java/org/juand/appfacturas/modelo/Producto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

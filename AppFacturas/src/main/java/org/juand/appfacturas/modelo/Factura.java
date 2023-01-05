@@ -23,13 +23,16 @@ public class Factura {
         this.fecha = new Date();
     }
 
+    public void addItemFactura(ItemFactura itemFactura){
+        if (indiceItems < MAX_ITEMS){
+            this.items[indiceItems++] = itemFactura;
+        }
+    }
+
     public float calcularTotal(){
         float total = 0.0f;
-        for (ItemFactura item : this.items){
-            if (item == null){
-                continue;
-            }
-            total += item.calcularImporte();
+        for (int i = 0; i < indiceItems; i++){
+            total += this.items[i].calcularImporte();
         }
         return total;
     }
@@ -51,11 +54,8 @@ public class Factura {
                 .append("\n")
                 .append("\n#\t nombre\t Precio\t Cant.\tTotal\n");
 
-        for (ItemFactura item : this.items){
-            if (item == null){
-                continue;
-            }
-            stringBuilder.append(item)
+        for (int i = 0; i < indiceItems; i++){
+            stringBuilder.append(this.items[i].toString())
                     .append("\n");
         }
         stringBuilder.append("\nGran total: ")
@@ -105,10 +105,4 @@ public class Factura {
         return items;
     }
 
-    public void addItemFactura(ItemFactura itemFactura){
-        if (indiceItems < MAX_ITEMS){
-            this.items[indiceItems] = itemFactura;
-        }
-
-    }
 }
