@@ -14,11 +14,12 @@
         <module>Paquetes</module>
         <module>AppFacturas</module>
         <module>Poo_Sobrecarga</module>
+        <module>poo_herencia</module>
     </modules>
 
     <properties>
-        <maven.compiler.source>18</maven.compiler.source>
-        <maven.compiler.target>18</maven.compiler.target>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
