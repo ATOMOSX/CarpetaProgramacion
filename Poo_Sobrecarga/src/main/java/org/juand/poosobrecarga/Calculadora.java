@@ -6,6 +6,14 @@ public class Calculadora {
         return a + b;
     }
 
+    public int sumar(int... argumentos){
+        int total = 0;
+        for (int i : argumentos){
+            total += i;
+        }
+        return total;
+    }
+
     public float sumar(float x, float y) {
         return x + y;
     }
@@ -14,12 +22,28 @@ public class Calculadora {
         return i + j;
     }
 
+    public float sumar(float a, int... argumentos){
+        float total = a;
+        for (int i : argumentos){
+            total += i;
+        }
+        return total;
+    }
+
     public float sumar(int i, float j) {
         return i + j;
     }
 
     public double sumar(double a, double b) {
         return a + b;
+    }
+
+    public double sumar(double... varargs){
+        double total = 0.0;
+        for (double i : varargs){
+            total += i;
+        }
+        return total;
     }
 
     public int sumar(String a, String b) {
