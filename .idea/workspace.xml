@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/poo_herencia/src/main/java/org/juand/pooherencia/EjemploHerencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/poo_herencia/src/main/java/org/juand/ejemplo/EjemploHerencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poo_herencia/src/main/java/org/juand/pooherencia/AlumnoInternacional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poo_herencia/src/main/java/org/juand/ejemplo/EjemploHerencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/poo_herencia/src/main/java/org/juand/ejemplo/EjemploHerencia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +73,7 @@
       <recent name="Seccion7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploHerencia">
+  <component name="RunManager" selected="Application.org.juand.ejemplo.EjemploHerencia">
     <configuration name="EjemploFactura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.appfacturas.EjemploFactura" />
       <module name="AppFacturas" />
@@ -94,13 +96,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjemploOrdenes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjemploOrdenes" />
-      <module name="TareaPoo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,13 +139,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.juand.ejemplo.EjemploHerencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.ejemplo.EjemploHerencia" />
+      <module name="poo_herencia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.juand.ejemplo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.juand.ejemplo.EjemploHerencia" />
         <item itemvalue="Application.EjemploHerencia" />
         <item itemvalue="Application.EjemploSobrecarga" />
         <item itemvalue="Application.EjemploFactura" />
         <item itemvalue="Application.EjemploPaquetes" />
-        <item itemvalue="Application.EjemploOrdenes" />
       </list>
     </recent_temporary>
   </component>
