@@ -29,4 +29,11 @@ public class ItemFactura {
     public void setProducto(Producto producto) {
         this.producto = producto;
     }
+
+    @Override
+    public String toString() {
+        return producto +
+                "\t" + cantidad +
+                "\t" + calcularImporte();
+    }
 }

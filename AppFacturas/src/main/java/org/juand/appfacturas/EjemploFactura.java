@@ -1,9 +1,6 @@
 package org.juand.appfacturas;
 
-import org.juand.appfacturas.modelo.Cliente;
-import org.juand.appfacturas.modelo.Factura;
-import org.juand.appfacturas.modelo.ItemFactura;
-import org.juand.appfacturas.modelo.Producto;
+import org.juand.appfacturas.modelo.*;
 
 import java.util.Scanner;
 
@@ -20,30 +17,21 @@ public class EjemploFactura {
         Factura factura = new Factura(description, cliente);
 
         Producto producto;
-        String nombre;
-        int precio;
-        int cantidad;
-
         System.out.println();
 
         for (int i = 0; i < 5; i++){
             producto = new Producto();
             System.out.print("Ingrese el producto N° " + producto.getCodigo() + " : ");
-            nombre = scanner.next();
-            producto.setNombre(nombre);
+            producto.setNombre(scanner.next());
 
             System.out.print("Ingrese el precio: ");
-            precio = scanner.nextInt();
-            producto.setPrecio(precio);
+            producto.setPrecio(scanner.nextInt());
 
             System.out.print("Ingrese la cantidad: ");
-            cantidad = scanner.nextInt();
-
-            ItemFactura item = new ItemFactura(cantidad, producto);
-            factura.addItemFactura(item);
+            factura.addItemFactura(new ItemFactura(scanner.nextInt(), producto));
 
             System.out.println();
         }
-        System.out.println(factura.generarDetalle());
+        System.out.println(factura);
     }
 }

@@ -37,7 +37,7 @@ public class Factura {
     public String generarDetalle() {
         StringBuilder stringBuilder = new StringBuilder("Factura N°: ");
         stringBuilder.append(folio)
-                .append("cliente: ")
+                .append("\ncliente: ")
                 .append(this.cliente.getNombre())
                 .append("\nNif: ")
                 .append(cliente.getNif())
@@ -51,25 +51,22 @@ public class Factura {
                 .append("\n")
                 .append("\n#\t nombre\t Precio\t Cant.\tTotal\n");
 
-        for (ItemFactura item : items){
+        for (ItemFactura item : this.items){
             if (item == null){
                 continue;
             }
-            stringBuilder.append(item.getProducto().getCodigo())
-                    .append("\t")
-                    .append(item.getProducto().getNombre())
-                    .append("\t")
-                    .append(item.getProducto().getPrecio())
-                    .append("\t")
-                    .append(item.getCantidad())
-                    .append("\t")
-                    .append(item.calcularImporte())
+            stringBuilder.append(item)
                     .append("\n");
         }
         stringBuilder.append("\nGran total: ")
                 .append(calcularTotal());
 
         return stringBuilder.toString();
+    }
+
+    @Override
+    public String toString() {
+        return generarDetalle();
     }
 
     public int getFolio() {
