@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Poo_Sobrecarga/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poo_Sobrecarga/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poo_Sobrecarga/src/main/java/org/juand/poosobrecarga/Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Poo_Sobrecarga/src/main/java/org/juand/poosobrecarga/EjemploSobrecarga.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,16 +71,9 @@
       <recent name="Seccion7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploFactura">
+  <component name="RunManager" selected="Application.EjemploSobrecarga">
     <configuration name="EjemploAutomovilArreglo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EjemploAutomovilArreglo" />
-      <module name="POO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjemploAutomovilRelacionesObjetos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjemploAutomovilRelacionesObjetos" />
       <module name="POO" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,6 +112,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjemploSobrecarga" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.poosobrecarga.EjemploSobrecarga" />
+      <module name="Poo_Sobrecarga" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.juand.poosobrecarga.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tarea4Seccion5" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seccion5.Tarea4Seccion5" />
       <module name="CarpetaProgramacion" />
@@ -138,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploSobrecarga" />
         <item itemvalue="Application.EjemploFactura" />
         <item itemvalue="Application.EjemploPaquetes" />
         <item itemvalue="Application.EjemploOrdenes" />
         <item itemvalue="Application.EjemploAutomovilArreglo" />
-        <item itemvalue="Application.EjemploAutomovilRelacionesObjetos" />
       </list>
     </recent_temporary>
   </component>
