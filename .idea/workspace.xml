@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/poo_herencia/src/main/java/org/juand/ejemplo/EjemploHerenciaConstructores.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poo_herencia/src/main/java/org/juand/pooherencia/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/poo_herencia/src/main/java/org/juand/pooherencia/Alumno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poo_herencia/src/main/java/org/juand/pooherencia/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/poo_herencia/src/main/java/org/juand/pooherencia/Persona.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,14 +65,14 @@
       <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\VariablesYOperadores\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.juand.ejemplo" />
       <recent name="" />
       <recent name="Seccion13" />
       <recent name="Seccion12" />
       <recent name="Seccion8" />
-      <recent name="Seccion7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.juand.ejemplo.EjemploHerencia">
+  <component name="RunManager" selected="Application.EjemploHerenciaConstructores">
     <configuration name="EjemploFactura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.appfacturas.EjemploFactura" />
       <module name="AppFacturas" />
@@ -100,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploPaquetes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juandavid.app.jardin.EjemploPaquetes" />
-      <module name="Paquetes" />
+    <configuration name="EjemploHerenciaConstructores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.ejemplo.EjemploHerenciaConstructores" />
+      <module name="poo_herencia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juandavid.app.jardin.*" />
+          <option name="PATTERN" value="org.juand.ejemplo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploHerenciaConstructores" />
         <item itemvalue="Application.org.juand.ejemplo.EjemploHerencia" />
         <item itemvalue="Application.EjemploHerencia" />
         <item itemvalue="Application.EjemploSobrecarga" />
         <item itemvalue="Application.EjemploFactura" />
-        <item itemvalue="Application.EjemploPaquetes" />
       </list>
     </recent_temporary>
   </component>
