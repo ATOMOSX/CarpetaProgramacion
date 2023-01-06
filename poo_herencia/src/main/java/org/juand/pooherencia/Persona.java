@@ -7,6 +7,14 @@ public class Persona {
     private int edad;
     private String email;
 
+    public Persona(){
+        System.out.println("Persona: Inicializando constructor...");
+    }
+
+    public Persona(String nombre){
+
+    }
+
     public String getNombre() {
         return nombre;
     }
