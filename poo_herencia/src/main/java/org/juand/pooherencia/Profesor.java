@@ -17,6 +17,18 @@ public class Profesor extends Persona{
         this.asignatura = asignatura;
     }
 
+    @Override
+    public String saludar() {
+        return "Buenos dias, soy el profesor de " + getAsignatura() +
+                ", mi nombre es " + getNombre();
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() +
+                "\nasignatura = '" + asignatura;
+    }
+
     public String getAsignatura() {
         return asignatura;
     }
@@ -25,9 +37,4 @@ public class Profesor extends Persona{
         this.asignatura = asignatura;
     }
 
-    @Override
-    public String saludar() {
-        return "Buenos dias, soy el profesor de " + getAsignatura() +
-                ", mi nombre es " + getNombre();
-    }
 }
