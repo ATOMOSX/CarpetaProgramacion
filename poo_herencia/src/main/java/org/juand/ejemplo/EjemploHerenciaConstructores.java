@@ -32,7 +32,7 @@ public class EjemploHerenciaConstructores {
         profesor.setEmail("danielag@colegio.edu.co");
         imprimir(profesor);
 
-        System.out.println("========= - =========");
+        System.out.println("=============================================");
 
     }
 
@@ -53,11 +53,17 @@ public class EjemploHerenciaConstructores {
                 System.out.println("Nota Idiomas: " + ((AlumnoInternacional) persona).getNotaIdiomas());
                 System.out.println("Pais: " + ((AlumnoInternacional) persona).getPais());
             }
+            System.out.println("========= Sobre escritura, promedio =========");
+            System.out.println(((Alumno) persona).calcularPromedio());
+            //System.out.println("=============================================");
         }
 
         if (persona instanceof Profesor) {
             System.out.println("Imprimiendo los datos del tipo profesor:");
             System.out.println("Asignatura: " + ((Profesor) persona).getAsignatura());
         }
+
+        System.out.println("========= Sobre escritura, saludar =========");
+        System.out.println(persona.saludar());
     }
 }

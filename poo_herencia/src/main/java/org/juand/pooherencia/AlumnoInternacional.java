@@ -18,6 +18,17 @@ public class AlumnoInternacional extends Alumno {
         this.pais = pais;
     }
 
+    @Override
+    public String saludar() {
+        return super.saludar() + ", soy extranjero del pais " + getPais();
+    }
+
+    @Override
+    public double calcularPromedio() {
+        System.out.println("Calcular promedio " + getClass().getCanonicalName());
+        return ((super.calcularPromedio() * 3) + notaIdiomas) / 4;
+    }
+
     public String getPais() {
         return pais;
     }
