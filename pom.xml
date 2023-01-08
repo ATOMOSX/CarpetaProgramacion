@@ -28,6 +28,7 @@
         <module>Poo_Sobrecarga</module>
         <module>poo_herencia</module>
         <module>poo_herencia/Tarea1PooHerencia</module>
+        <module>poo_herencia/Tarea2PooHerencia</module>
     </modules>
 
     <properties>

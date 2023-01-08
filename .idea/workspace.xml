@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/poo_herencia/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poo_herencia/Tarea1PooHerencia/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poo_herencia/Tarea1PooHerencia/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poo_herencia/Tarea1PooHerencia/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poo_herencia/Tarea1PooHerencia/src/main/java/org/juand/compania/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poo_herencia/Tarea1PooHerencia/src/main/java/org/juand/compania/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poo_herencia/Tarea1PooHerencia/src/main/java/org/juand/compania/Gerente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poo_herencia/Tarea1PooHerencia/src/main/java/org/juand/compania/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poo_herencia/Tarea1PooHerencia/src/main/java/org/juand/ejemplo/EjemploTarea1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poo_herencia/Tarea2PooHerencia/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poo_herencia/Tarea2PooHerencia/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poo_herencia/Tarea2PooHerencia/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poo_herencia/Tarea2PooHerencia/src/main/java/org/juand/ejemplo/Ejemplo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poo_herencia/Tarea2PooHerencia/src/main/java/org/juand/verduleria/Fruta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poo_herencia/Tarea2PooHerencia/src/main/java/org/juand/verduleria/Lacteo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poo_herencia/Tarea2PooHerencia/src/main/java/org/juand/verduleria/Limpieza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poo_herencia/Tarea2PooHerencia/src/main/java/org/juand/verduleria/NoPerecedores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poo_herencia/Tarea2PooHerencia/src/main/java/org/juand/verduleria/Producto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -57,8 +57,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_directory_selection": "C:/Users/MI PC/Documents/IngenieriaDeSistemas/Semestre3/Programacion/Repositorios/CarpetaProgramacion/poo_herencia/Tarea1PooHerencia/src/main/java/org/juand",
-    "last_opened_file_path": "C:/Users/MI PC/Documents/IngenieriaDeSistemas/Semestre3/Programacion/Repositorios/CarpetaProgramacion/poo_herencia",
+    "last_directory_selection": "C:/Users/MI PC/Documents/IngenieriaDeSistemas/Semestre3/Programacion/Repositorios/CarpetaProgramacion/poo_herencia/Tarea2PooHerencia/src/main/java/org/juand",
+    "last_opened_file_path": "C:/Users/MI PC/Documents/IngenieriaDeSistemas/Semestre3/Programacion/Repositorios/CarpetaProgramacion/poo_herencia/Tarea2PooHerencia",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -68,11 +68,11 @@
       <recent name="Cliente" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\poo_herencia\Tarea2PooHerencia" />
       <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\poo_herencia" />
       <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\poo_herencia\Tarea1PooHerencia" />
       <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\Poo_Sobrecarga" />
       <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\AppFacturas" />
-      <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\Poo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.juand.ejemplo" />
@@ -82,13 +82,13 @@
       <recent name="Seccion8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploTarea1">
-    <configuration name="EjemploHerencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.pooherencia.EjemploHerencia" />
-      <module name="poo_herencia" />
+  <component name="RunManager" selected="Application.Ejemplo">
+    <configuration name="Ejemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.ejemplo.Ejemplo" />
+      <module name="Tarea2PooHerencia" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juand.pooherencia.*" />
+          <option name="PATTERN" value="org.juand.ejemplo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ejemplo" />
         <item itemvalue="Application.EjemploTarea1" />
         <item itemvalue="Application.EjemploHerenciaToString" />
         <item itemvalue="Application.EjemploHerenciaConstructores" />
         <item itemvalue="Application.org.juand.ejemplo.EjemploHerencia" />
-        <item itemvalue="Application.EjemploHerencia" />
       </list>
     </recent_temporary>
   </component>
