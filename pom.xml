@@ -27,6 +27,7 @@
         <module>AppFacturas</module>
         <module>Poo_Sobrecarga</module>
         <module>poo_herencia</module>
+        <module>poo_herencia/Tarea1PooHerencia</module>
     </modules>
 
     <properties>
