@@ -18,6 +18,7 @@ public class SelectForm extends ElementoForm{
             stringBuilder.append("\n <option value='").append(opcion.getValor()).append("'");
             if (opcion.isSelected()){
                 stringBuilder.append(" selected");
+                this.valor = opcion.getValor();
             }
             stringBuilder.append(">").append(opcion.getNombre()).append("</option>");
         }
