@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/validador/NoNuloValidador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/validador/NumeroValidador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/validador/RequeridoValidador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/validador/Validador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/PooClasesAbstractas/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/EjemploForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/EjemploForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/elementos/select/Opcion.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/elementos/select/Opcion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
