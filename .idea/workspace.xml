@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/validador/NoNuloValidador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/validador/NumeroValidador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/validador/RequeridoValidador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/validador/Validador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/validador/LargoValidadoer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/validador/NoNuloValidador.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/validador/NoNuloValidador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/validador/NumeroValidador.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/validador/NumeroValidador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/validador/RequeridoValidador.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/validador/RequeridoValidador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/validador/Validador.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/validador/Validador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
