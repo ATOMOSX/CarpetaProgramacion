@@ -3,7 +3,6 @@ package org.juand.pooclasesabstractas.form;
 import org.juand.pooclasesabstractas.form.elementos.*;
 import org.juand.pooclasesabstractas.form.elementos.select.Opcion;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -30,10 +29,19 @@ public class EjemploForm {
         Opcion java = new Opcion("1", "Java");
         lenguahe.addOpcion(java)
                 .addOpcion(new Opcion("2", "Python"))
-                .addOpcion(new Opcion("3", "JavaScript"))
+                .addOpcion(new Opcion("3", "JavaScript").setSelected())
                 .addOpcion(new Opcion("4", "TypeScript"))
                 .addOpcion(new Opcion("5", "PHP"));
 
+        //Creamos una clase anonima sensilla con un saludo
+        ElementoForm saludar = new ElementoForm() {
+            @Override
+            public String dibujarHtml() {
+                return "<input disable name='" + this.nombre + "' value=\""+ this.valor +"\">";
+            }
+        };
+
+        saludar.setValor("Hola, este campo esta desabilitado");
         username.setValor("juand.lopezm");
         pasword.setValor("12345");
         email.setValor("juand.lopezm@correo.edu.co");
@@ -42,7 +50,7 @@ public class EjemploForm {
         java.setSelected(true);
 
         List<ElementoForm> elementos = Arrays.asList(username, pasword, email,
-                email, experiencia, lenguahe);
+                email, experiencia, lenguahe, saludar);
 
         //Esta es una forma de iterar
         for (ElementoForm elementoForm : elementos){
