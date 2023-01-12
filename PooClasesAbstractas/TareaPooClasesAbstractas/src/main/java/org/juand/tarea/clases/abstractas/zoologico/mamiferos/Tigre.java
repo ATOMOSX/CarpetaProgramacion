@@ -1,6 +1,7 @@
-package org.juand.tarea.clases.abstractas.zoologico;
+package org.juand.tarea.clases.abstractas.zoologico.mamiferos;
 
-public class Tigre extends Felinos{
+
+public class Tigre extends Felinos {
 
     private String especieTigre;
 

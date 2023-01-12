@@ -1,6 +1,7 @@
-package org.juand.tarea.clases.abstractas.zoologico;
+package org.juand.tarea.clases.abstractas.zoologico.mamiferos;
 
-public class Leon extends Felinos{
+
+public class Leon extends Felinos {
 
     private int numeroManada;
     private float potenciaRugidoDecibel;
@@ -11,11 +12,6 @@ public class Leon extends Felinos{
         super(habitad, altura, largo, peso, nombreCientifico, tamanoGarras, velocidad);
         this.numeroManada = numeroManada;
         this.potenciaRugidoDecibel = potenciaRugidoDecibel;
-    }
-
-    public Leon(String habitad, float altura, float largo, float peso,
-                String nombreCientifico, float tamanoGarras, int velocidad) {
-        super(habitad, altura, largo, peso, nombreCientifico, tamanoGarras, velocidad);
     }
 
     @Override
@@ -32,7 +28,7 @@ public class Leon extends Felinos{
     @Override
     public String correr() {
         return "Los leones corren para cazar, jugar, etc" +
-                "\n tratan de hacerlo en manada";
+                " tratan de hacerlo en manada";
     }
 
     @Override

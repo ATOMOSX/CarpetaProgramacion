@@ -1,6 +1,6 @@
-package org.juand.tarea.clases.abstractas.zoologico;
+package org.juand.tarea.clases.abstractas.zoologico.mamiferos;
 
-abstract public class Caninos extends Mamifero{
+abstract public class Caninos extends Mamifero {
 
     protected String color;
     protected float tamanoColmillos;

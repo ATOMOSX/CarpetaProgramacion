@@ -1,4 +1,4 @@
-package org.juand.tarea.clases.abstractas.zoologico;
+package org.juand.tarea.clases.abstractas.zoologico.mamiferos;
 
 abstract public class Mamifero {
 

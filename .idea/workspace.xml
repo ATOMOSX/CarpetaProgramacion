@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Caninos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Felinos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Leon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Mamifero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Tigre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/mamiferos/EjemploMamiferos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/mamiferos/Guepardo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/mamiferos/Lobo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/mamiferos/Perro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Caninos.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/mamiferos/Caninos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Felinos.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/mamiferos/Felinos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Guepardo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Leon.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/mamiferos/Leon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Mamifero.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/mamiferos/Mamifero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Tigre.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/mamiferos/Tigre.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +59,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_directory_selection": "C:/Users/MI PC/Documents/IngenieriaDeSistemas/Semestre3/Programacion/Repositorios/CarpetaProgramacion/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico",
+    "last_directory_selection": "C:/Users/MI PC/Documents/IngenieriaDeSistemas/Semestre3/Programacion/Repositorios/CarpetaProgramacion/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/mamiferos",
     "last_opened_file_path": "C:/Users/MI PC/Documents/IngenieriaDeSistemas/Semestre3/Programacion/Repositorios/CarpetaProgramacion/PooClasesAbstractas/TareaPooClasesAbstractas",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
@@ -79,7 +84,7 @@
       <recent name="Seccion8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploForm">
+  <component name="RunManager" selected="Application.EjemploMamiferos">
     <configuration name="Ejemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.ejemplo.Ejemplo" />
       <module name="Tarea2PooHerencia" />
@@ -119,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploHerenciaToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.ejemplo.EjemploHerenciaToString" />
-      <module name="poo_herencia" />
+    <configuration name="EjemploMamiferos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.tarea.clases.abstractas.zoologico.mamiferos.EjemploMamiferos" />
+      <module name="TareaPooClasesAbstractas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juand.ejemplo.*" />
+          <option name="PATTERN" value="org.juand.tarea.clases.abstractas.zoologico.mamiferos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploMamiferos" />
         <item itemvalue="Application.EjemploForm" />
         <item itemvalue="Application.EjemploForm (1)" />
         <item itemvalue="Application.Ejemplo" />
         <item itemvalue="Application.EjemploTarea1" />
-        <item itemvalue="Application.EjemploHerenciaToString" />
       </list>
     </recent_temporary>
   </component>
