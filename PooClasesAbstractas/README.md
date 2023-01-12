@@ -1,4 +1,3 @@
-# CarpetaProgramacion
+# Programacion orientaba a objetos con clases abstractas
 
-## Curso de estudio en java desde 0
-
+Aqui se hace un ejemplo de clases abstractas mientras tratamos de dibujar un html
