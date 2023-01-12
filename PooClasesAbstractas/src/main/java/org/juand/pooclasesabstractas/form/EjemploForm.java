@@ -77,8 +77,7 @@ public class EjemploForm {
         //Creamos otro for each para iterar el addValidador
         elementos.forEach(elementoForm -> {
             if (!elementoForm.esValido()){
-                elementoForm.getErrores().forEach(err ->
-                        System.out.println(elementoForm.getNombre() + " " + err));
+                elementoForm.getErrores().forEach(System.out::println);
             }
         });
     }

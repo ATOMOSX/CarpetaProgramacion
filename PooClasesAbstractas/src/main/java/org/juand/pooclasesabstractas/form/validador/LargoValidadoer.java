@@ -2,7 +2,7 @@ package org.juand.pooclasesabstractas.form.validador;
 
 public class LargoValidadoer extends Validador{
 
-    protected String mensaje = "El campo debe tener un minimo %d caracteres  y maximo %d caracteres";
+    protected String mensaje = "El campo %s debe tener un minimo %d caracteres  y maximo %d caracteres";
     private int minimo;
     private int maximo = Integer.MAX_VALUE;
 
@@ -26,12 +26,16 @@ public class LargoValidadoer extends Validador{
 
     @Override
     public boolean esValido(String valor) {
-        this.mensaje = String.format(this.mensaje, this.minimo, this.maximo);
+        //this.mensaje = String.format(this.mensaje, this.minimo, this.maximo);
         if (valor == null){
             return true;
         }
         int largo = valor.length();
         return (largo >= minimo && largo <= minimo);
+    }
+
+    public String getMensajeFormateado(String campo){
+        return String.format(this.mensaje, campo ,this.minimo, this.maximo);
     }
 
     public int getMinimo() {
