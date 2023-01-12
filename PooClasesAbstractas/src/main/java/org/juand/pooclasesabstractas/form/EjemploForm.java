@@ -2,6 +2,10 @@ package org.juand.pooclasesabstractas.form;
 
 import org.juand.pooclasesabstractas.form.elementos.*;
 import org.juand.pooclasesabstractas.form.elementos.select.Opcion;
+import org.juand.pooclasesabstractas.form.validador.LargoValidadoer;
+import org.juand.pooclasesabstractas.form.validador.NoNuloValidador;
+import org.juand.pooclasesabstractas.form.validador.NumeroValidador;
+import org.juand.pooclasesabstractas.form.validador.RequeridoValidador;
 
 import java.util.Arrays;
 import java.util.List;
@@ -19,13 +23,19 @@ public class EjemploForm {
         };*/
 
         InputForm username = new InputForm("username");
-        InputForm pasword = new InputForm("clave", "pasword");
+        username.addValidador(new RequeridoValidador());
+        InputForm pasword = new InputForm("clave", "password");
+        pasword.addValidador(new RequeridoValidador());
+        pasword.addValidador(new LargoValidadoer(6, 12));
         InputForm email = new InputForm("email", "email");
+        email.addValidador(new RequeridoValidador()).addValidador(new LargoValidadoer());
         InputForm edad = new InputForm("edad", "number");
+        edad.addValidador(new NumeroValidador());
 
         TextareaForm experiencia = new TextareaForm("exp", 5, 9);
 
         SelectForm lenguahe = new SelectForm("lenguaje");
+        lenguahe.addValidador(new NoNuloValidador());
         Opcion java = new Opcion("1", "Java");
         lenguahe.addOpcion(java)
                 .addOpcion(new Opcion("2", "Python"))
@@ -33,7 +43,7 @@ public class EjemploForm {
                 .addOpcion(new Opcion("4", "TypeScript"))
                 .addOpcion(new Opcion("5", "PHP"));
 
-        //Creamos una clase anonima sensilla con un saludo
+        //Creamos una clase anonima sencilla con un saludo
         ElementoForm saludar = new ElementoForm() {
             @Override
             public String dibujarHtml() {
@@ -43,8 +53,8 @@ public class EjemploForm {
 
         saludar.setValor("Hola, este campo esta desabilitado");
         username.setValor("juand.lopezm");
-        pasword.setValor("12345");
-        email.setValor("juand.lopezm@correo.edu.co");
+        pasword.setValor("12345675");
+        email.setValor("juand@correo.com");
         edad.setValor("22");
         experiencia.setValor("... Mas de 2 años de experiencia ...");
         java.setSelected(true);
@@ -62,6 +72,14 @@ public class EjemploForm {
         elementos.forEach(el ->{
             System.out.println(el.dibujarHtml());
             System.out.println("<br>");
+        });
+
+        //Creamos otro for each para iterar el addValidador
+        elementos.forEach(elementoForm -> {
+            if (!elementoForm.esValido()){
+                elementoForm.getErrores().forEach(err ->
+                        System.out.println(elementoForm.getNombre() + " " + err));
+            }
         });
     }
 }

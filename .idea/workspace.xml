@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/EjemploForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/EjemploForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/elementos/ElementoForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/elementos/ElementoForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/validador/RequeridoValidador.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooClasesAbstractas/src/main/java/org/juand/pooclasesabstractas/form/validador/RequeridoValidador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +90,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="EjemploForm (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.pooclasesabstractas.form.EjemploForm" />
       <module name="PooClasesAbstractas" />
       <extension name="coverage">
@@ -101,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploHerenciaConstructores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.ejemplo.EjemploHerenciaConstructores" />
-      <module name="poo_herencia" />
+    <configuration name="EjemploForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.pooclasesabstractas.form.EjemploForm" />
+      <module name="PooClasesAbstractas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juand.ejemplo.*" />
+          <option name="PATTERN" value="org.juand.pooclasesabstractas.form.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,10 +158,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.EjemploForm" />
+        <item itemvalue="Application.EjemploForm (1)" />
         <item itemvalue="Application.Ejemplo" />
         <item itemvalue="Application.EjemploTarea1" />
         <item itemvalue="Application.EjemploHerenciaToString" />
-        <item itemvalue="Application.EjemploHerenciaConstructores" />
       </list>
     </recent_temporary>
   </component>

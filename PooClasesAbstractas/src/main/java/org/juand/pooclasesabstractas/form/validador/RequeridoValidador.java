@@ -6,7 +6,7 @@ public class RequeridoValidador extends Validador{
 
     @Override
     public void setMensaje(String mensaje) {
-
+        this.mensaje = mensaje;
     }
 
     @Override

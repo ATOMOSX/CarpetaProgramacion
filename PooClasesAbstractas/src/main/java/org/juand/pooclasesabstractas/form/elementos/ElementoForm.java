@@ -45,5 +45,17 @@ abstract public class ElementoForm {
         return errores;
     }
 
+    public String getValor() {
+        return valor;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
     abstract public String dibujarHtml();
 }
