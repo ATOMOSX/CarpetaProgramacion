@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Caninos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Felinos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Leon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Mamifero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Tigre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PooClasesAbstractas/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +22,8 @@
       <list>
         <option value="Enum" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,7 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_directory_selection": "C:/Users/MI PC/Documents/IngenieriaDeSistemas/Semestre3/Programacion/Repositorios/CarpetaProgramacion/poo_herencia/Tarea2PooHerencia/src/main/java/org/juand",
+    "last_directory_selection": "C:/Users/MI PC/Documents/IngenieriaDeSistemas/Semestre3/Programacion/Repositorios/CarpetaProgramacion/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico",
     "last_opened_file_path": "C:/Users/MI PC/Documents/IngenieriaDeSistemas/Semestre3/Programacion/Repositorios/CarpetaProgramacion/PooClasesAbstractas/TareaPooClasesAbstractas",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
