@@ -2,10 +2,7 @@ package org.juand.pooclasesabstractas.form;
 
 import org.juand.pooclasesabstractas.form.elementos.*;
 import org.juand.pooclasesabstractas.form.elementos.select.Opcion;
-import org.juand.pooclasesabstractas.form.validador.LargoValidadoer;
-import org.juand.pooclasesabstractas.form.validador.NoNuloValidador;
-import org.juand.pooclasesabstractas.form.validador.NumeroValidador;
-import org.juand.pooclasesabstractas.form.validador.RequeridoValidador;
+import org.juand.pooclasesabstractas.form.validador.*;
 
 import java.util.Arrays;
 import java.util.List;
@@ -53,8 +50,8 @@ public class EjemploForm {
 
         saludar.setValor("Hola, este campo esta desabilitado");
         username.setValor("juand.lopezm");
-        pasword.setValor("12345675");
-        email.setValor("juand@correo.com");
+        pasword.setValor("123456b1bx75");
+        email.setValor("jua.nd@correo.com");
         edad.setValor("22");
         experiencia.setValor("... Mas de 2 años de experiencia ...");
         java.setSelected(true);
