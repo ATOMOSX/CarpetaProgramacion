@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PooInterfaces/src/main/java/org/juand/poointerfaces/imprenta/modelo/Curriculum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooInterfaces/src/main/java/org/juand/poointerfaces/imprenta/EjemploImprenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooInterfaces/src/main/java/org/juand/poointerfaces/imprenta/EjemploImprenta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,7 @@
       <recent name="Seccion8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploMamiferos">
+  <component name="RunManager" selected="Application.EjemploImprenta">
     <configuration name="Ejemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.ejemplo.Ejemplo" />
       <module name="Tarea2PooHerencia" />
@@ -115,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploMamiferos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.tarea.clases.abstractas.zoologico.mamiferos.EjemploMamiferos" />
-      <module name="TareaPooClasesAbstractas" />
+    <configuration name="EjemploImprenta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.poointerfaces.imprenta.EjemploImprenta" />
+      <module name="PooInterfaces" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juand.tarea.clases.abstractas.zoologico.mamiferos.*" />
+          <option name="PATTERN" value="org.juand.poointerfaces.imprenta.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploTarea1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.ejemplo.EjemploTarea1" />
-      <module name="Tarea1PooHerencia" />
+    <configuration name="EjemploMamiferos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.tarea.clases.abstractas.zoologico.mamiferos.EjemploMamiferos" />
+      <module name="TareaPooClasesAbstractas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juand.ejemplo.*" />
+          <option name="PATTERN" value="org.juand.tarea.clases.abstractas.zoologico.mamiferos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploImprenta" />
         <item itemvalue="Application.EjemploMamiferos" />
         <item itemvalue="Application.EjemploForm" />
         <item itemvalue="Application.EjemploForm (1)" />
         <item itemvalue="Application.Ejemplo" />
-        <item itemvalue="Application.EjemploTarea1" />
       </list>
     </recent_temporary>
   </component>
