@@ -23,12 +23,18 @@ public class EjemploImprenta {
         Informe informe = new Informe("Estudio sobre micro servicios", new Persona("Daniela", "Gomez"),
                 new Persona("Sasha", "Lopez"));
 
-        imprimir(curriculum);
-        imprimir(informe);
-        imprimir(libro);
-    }
+        Imprimible.imprimir(curriculum);
+        Imprimible.imprimir(informe);
+        Imprimible.imprimir(libro);
 
-    public static void imprimir(Imprimible imprimible){
-        System.out.println(imprimible.imprimir());
+        //Creamos una clase anonima al vuelo
+        Imprimible.imprimir(new Imprimible() {
+            @Override
+            public String imprimir() {
+                return "Imprimiendo un objeto generico de la clase anonima";
+            }
+        });
+
+        System.out.println(Imprimible.TEXTO_DEFECTO);
     }
 }
