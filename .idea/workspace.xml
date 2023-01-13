@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/mamiferos/EjemploMamiferos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/mamiferos/Guepardo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/mamiferos/Lobo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/mamiferos/Perro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooInterfaces/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooInterfaces/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooInterfaces/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooInterfaces/src/main/java/org/juand/poointerfaces/imprenta/EjemploImprenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooInterfaces/src/main/java/org/juand/poointerfaces/imprenta/modelo/Hoja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooInterfaces/src/main/java/org/juand/poointerfaces/imprenta/modelo/Informe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Caninos.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/mamiferos/Caninos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Felinos.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/mamiferos/Felinos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Guepardo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Leon.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/mamiferos/Leon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Mamifero.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/mamiferos/Mamifero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/Tigre.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/mamiferos/Tigre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "19",
     "last_directory_selection": "C:/Users/MI PC/Documents/IngenieriaDeSistemas/Semestre3/Programacion/Repositorios/CarpetaProgramacion/PooClasesAbstractas/TareaPooClasesAbstractas/src/main/java/org/juand/tarea/clases/abstractas/zoologico/mamiferos",
-    "last_opened_file_path": "C:/Users/MI PC/Documents/IngenieriaDeSistemas/Semestre3/Programacion/Repositorios/CarpetaProgramacion/PooClasesAbstractas/TareaPooClasesAbstractas",
+    "last_opened_file_path": "C:/Users/MI PC/Documents/IngenieriaDeSistemas/Semestre3/Programacion/Repositorios/CarpetaProgramacion/PooInterfaces",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -70,11 +68,11 @@
       <recent name="Cliente" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\PooInterfaces" />
       <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\PooClasesAbstractas\TareaPooClasesAbstractas" />
       <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\PooClasesAbstractas" />
       <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\poo_herencia\Tarea2PooHerencia" />
       <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\poo_herencia" />
-      <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\poo_herencia\Tarea1PooHerencia" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.juand.ejemplo" />

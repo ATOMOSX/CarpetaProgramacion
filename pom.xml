@@ -30,6 +30,7 @@
         <module>poo_herencia/Tarea1PooHerencia</module>
         <module>poo_herencia/Tarea2PooHerencia</module>
         <module>PooClasesAbstractas</module>
+        <module>PooInterfaces</module>
     </modules>
 
     <properties>
