@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PooInterfaces/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooInterfaces/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooInterfaces/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooInterfaces/src/main/java/org/juand/poointerfaces/imprenta/EjemploImprenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooInterfaces/src/main/java/org/juand/poointerfaces/imprenta/modelo/Hoja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooInterfaces/src/main/java/org/juand/poointerfaces/imprenta/modelo/Informe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooInterfaces/src/main/java/org/juand/poointerfaces/imprenta/modelo/Curriculum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
