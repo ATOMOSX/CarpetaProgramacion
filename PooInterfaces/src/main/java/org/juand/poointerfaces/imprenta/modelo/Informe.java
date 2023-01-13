@@ -1,6 +1,6 @@
 package org.juand.poointerfaces.imprenta.modelo;
 
-public class Informe extends Hoja{
+public class Informe extends Hoja implements Imprimible{
 
     private String autor;
     private String revisor;
