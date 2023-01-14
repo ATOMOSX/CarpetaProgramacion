@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/src/main/java/org/juand/poo/interfaces/modelo/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/src/main/java/org/juand/poo/interfaces/respositorio/CrudRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/src/main/java/org/juand/poo/interfaces/respositorio/ClienteListRepositorio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooInterfacesRepositorio/src/main/java/org/juand/poo/interfaces/respositorio/CrudRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/src/main/java/org/juand/poo/interfaces/respositorio/CrudRepositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooInterfacesRepositorio/src/main/java/org/juand/poo/interfaces/respositorio/PaginableRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/src/main/java/org/juand/poo/interfaces/respositorio/PaginableRepositorio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +20,8 @@
       <list>
         <option value="HTML File" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
