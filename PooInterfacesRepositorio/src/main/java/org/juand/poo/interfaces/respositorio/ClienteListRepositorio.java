@@ -3,10 +3,11 @@ package org.juand.poo.interfaces.respositorio;
 import org.juand.poo.interfaces.modelo.Cliente;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 public class ClienteListRepositorio implements CrudRepositorio,
-        OrdenableRepositorio, PaginableRepositorio{
+        OrdenableRepositorio, PaginableRepositorio {
 
     private List<Cliente> dataSource;
 
@@ -16,12 +17,33 @@ public class ClienteListRepositorio implements CrudRepositorio,
 
     @Override
     public List<Cliente> listar(String campo, Direccion direccion) {
+        dataSource.sort((cliente1, cliente2) ->{
+                int resultado = 0;
+
+                if (direccion == Direccion.ASCENDENTE) {
+
+                    switch (campo){
+                        case "id" -> resultado = cliente1.getId().compareTo(cliente2.getId());
+                        case "nombre" -> resultado = cliente1.getNombre().compareTo(cliente2.getNombre());
+                        case "apellido" -> resultado = cliente1.getApellido().compareTo(cliente2.getApellido());
+                    }
+                } else if (direccion == Direccion.DESCENDENTE) {
+
+                    switch (campo){
+                        case "id" -> resultado = cliente2.getId().compareTo(cliente1.getId());
+                        case "nombre" -> resultado = cliente2.getNombre().compareTo(cliente1.getNombre());
+                        case "apellido" -> resultado = cliente2.getApellido().compareTo(cliente1.getApellido());
+                    }
+                }
+                return resultado;
+            }
+        );
         return dataSource;
     }
 
     @Override
     public List<Cliente> listar(int desde, int hasta) {
-        return null;
+        return dataSource.subList(desde, hasta);
     }
 
     @Override
@@ -35,10 +57,10 @@ public class ClienteListRepositorio implements CrudRepositorio,
         Cliente cliente = null;
 
         //Iteramos con un for para buscar el cliente
-        for (Cliente cli : dataSource){
+        for (Cliente cli : dataSource) {
 
             //Si el cliente tiene el mismo id, es encontrado
-            if (cli.getId().equals(id)){
+            if (cli.getId().equals(id)) {
                 //Asignamos el cliente a la variable nula
                 cliente = cli;
                 break;
