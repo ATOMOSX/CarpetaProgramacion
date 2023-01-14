@@ -2,7 +2,7 @@ package org.juand.catalogo.clases.abstractas;
 
 import org.juand.catalogo.interfaces.IProducto;
 
-public class Producto implements IProducto {
+public abstract class Producto implements IProducto {
 
     private int precio;
 
@@ -15,8 +15,4 @@ public class Producto implements IProducto {
         return precio;
     }
 
-    @Override
-    public double getPrecioVenta() {
-        return precio;
-    }
 }

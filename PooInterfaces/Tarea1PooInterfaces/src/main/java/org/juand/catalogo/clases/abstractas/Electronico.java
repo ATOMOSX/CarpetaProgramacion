@@ -2,7 +2,7 @@ package org.juand.catalogo.clases.abstractas;
 
 import org.juand.catalogo.interfaces.IElectronico;
 
-public class Electronico extends Producto implements IElectronico {
+public abstract class Electronico extends Producto implements IElectronico {
 
     private String fabricante;
 

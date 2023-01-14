@@ -4,14 +4,13 @@ import java.util.Date;
 
 public class Libro extends Producto{
 
-    private Date fechaPublicacion;
+    private Date fechaPublicacion = new Date();
     private String autor;
     private String titulo;
     private String editorial;
 
-    public Libro(int precio, Date fechaPublicacion, String autor, String titulo, String editorial) {
+    public Libro(int precio, String autor, String titulo, String editorial) {
         super(precio);
-        this.fechaPublicacion = fechaPublicacion;
         this.autor = autor;
         this.titulo = titulo;
         this.editorial = editorial;
@@ -35,6 +34,6 @@ public class Libro extends Producto{
 
     @Override
     public double getPrecioVenta() {
-        return super.getPrecioVenta();
+        return this.getPrecio() * 0.19;
     }
 }

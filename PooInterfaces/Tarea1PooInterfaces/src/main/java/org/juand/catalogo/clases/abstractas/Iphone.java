@@ -13,7 +13,7 @@ public class Iphone extends Electronico{
 
     @Override
     public double getPrecioVenta() {
-        return super.getPrecioVenta();
+        return (this.getPrecio() * 0.19);
     }
 
     public String getColor() {
