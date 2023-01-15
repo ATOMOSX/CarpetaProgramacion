@@ -48,7 +48,7 @@ public class ClienteListRepositorio implements CrudRepositorio,
 
     @Override
     public List<Cliente> listar() {
-        return null;
+        return dataSource;
     }
 
     @Override
@@ -60,7 +60,7 @@ public class ClienteListRepositorio implements CrudRepositorio,
         for (Cliente cli : dataSource) {
 
             //Si el cliente tiene el mismo id, es encontrado
-            if (cli.getId().equals(id)) {
+            if (cli.getId() != null && cli.getId().equals(id)) {
                 //Asignamos el cliente a la variable nula
                 cliente = cli;
                 break;
