@@ -6,8 +6,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class ClienteListRepositorio implements CrudRepositorio,
-        OrdenableRepositorio, PaginableRepositorio {
+public class ClienteListRepositorio implements FullRepositorio{
 
     private List<Cliente> dataSource;
 
@@ -82,6 +81,11 @@ public class ClienteListRepositorio implements CrudRepositorio,
         //Volvemos a utilizar el buscar por ID para poder eliminar el cliente
         Cliente c = this.porId(id);
         this.dataSource.remove(c);
+    }
+
+    @Override
+    public int total() {
+        return this.dataSource.size();
     }
 
 

@@ -8,7 +8,7 @@ import java.util.List;
 public class EjemploRepositorio {
     public static void main(String[] args) {
 
-        CrudRepositorio repositorio = new ClienteListRepositorio();
+        FullRepositorio repositorio = new ClienteListRepositorio();
         repositorio.crear(new Cliente("Juan David", "Lopez"));
         repositorio.crear(new Cliente("Daniela", "Gomez"));
         repositorio.crear(new Cliente("Eileen", "Gomez"));
@@ -19,18 +19,18 @@ public class EjemploRepositorio {
         clienteList.forEach(System.out::println);
 
         System.out.println("============== Paginable ==============");
-        List<Cliente> paginable = ((PaginableRepositorio)repositorio).listar(1, 4);
+        List<Cliente> paginable = (repositorio).listar(1, 4);
         paginable.forEach(System.out::println);
 
         System.out.println("============== Ordenable ascendente ==============");
-        List<Cliente> ordenableAscendente = ((OrdenableRepositorio)repositorio).
+        List<Cliente> ordenableAscendente = (repositorio).
                 listar("nombre", Direccion.ASCENDENTE);
         for (Cliente cliente : clienteList){
             System.out.println(cliente);
         }
 
         System.out.println("============== Ordenable descendente ==============");
-        List<Cliente> ordenableDescendente = ((OrdenableRepositorio)repositorio).
+        List<Cliente> ordenableDescendente = (repositorio).
                 listar("nombre", Direccion.DESCENDENTE);
         for (Cliente cliente : clienteList){
             System.out.println(cliente);
@@ -41,11 +41,13 @@ public class EjemploRepositorio {
         editar.setId(2);
         repositorio.editar(editar);
         Cliente daniela = repositorio.porId(2);
-        ((OrdenableRepositorio)repositorio).
-                listar("apellido", Direccion.DESCENDENTE).forEach(System.out::println);
+        (repositorio).listar("apellido", Direccion.DESCENDENTE).forEach(System.out::println);
 
         System.out.println("============== Eliminar ==============");
         repositorio.eliminar(2);
         repositorio.listar().forEach(System.out::println);
+
+        System.out.println("============== Total ==============");
+        System.out.println("Total de registros: " + repositorio.total());
     }
 }
