@@ -42,7 +42,7 @@ public class EjemploRepositorio {
         repositorio.editar(editar);
         Cliente daniela = repositorio.porId(2);
         ((OrdenableRepositorio)repositorio).
-                listar("nombre", Direccion.ASCENDENTE).forEach(System.out::println);
+                listar("apellido", Direccion.DESCENDENTE).forEach(System.out::println);
 
         System.out.println("============== Eliminar ==============");
         repositorio.eliminar(2);

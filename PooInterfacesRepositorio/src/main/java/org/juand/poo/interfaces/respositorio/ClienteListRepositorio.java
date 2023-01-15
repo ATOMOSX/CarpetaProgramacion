@@ -17,28 +17,20 @@ public class ClienteListRepositorio implements CrudRepositorio,
 
     @Override
     public List<Cliente> listar(String campo, Direccion direccion) {
-        dataSource.sort((cliente1, cliente2) ->{
-                int resultado = 0;
+        List<Cliente> listaOrdenada = new ArrayList<>(this.dataSource);
+        listaOrdenada.sort((cliente1, cliente2) -> {
+            int resultado = 0;
 
-                if (direccion == Direccion.ASCENDENTE) {
+            if (direccion == Direccion.ASCENDENTE) {
+                resultado = this.ordenar(campo, cliente1, cliente2);
 
-                    switch (campo){
-                        case "id" -> resultado = cliente1.getId().compareTo(cliente2.getId());
-                        case "nombre" -> resultado = cliente1.getNombre().compareTo(cliente2.getNombre());
-                        case "apellido" -> resultado = cliente1.getApellido().compareTo(cliente2.getApellido());
-                    }
-                } else if (direccion == Direccion.DESCENDENTE) {
+            } else if (direccion == Direccion.DESCENDENTE) {
+               resultado = this.ordenar(campo, cliente2, cliente1);
 
-                    switch (campo){
-                        case "id" -> resultado = cliente2.getId().compareTo(cliente1.getId());
-                        case "nombre" -> resultado = cliente2.getNombre().compareTo(cliente1.getNombre());
-                        case "apellido" -> resultado = cliente2.getApellido().compareTo(cliente1.getApellido());
-                    }
-                }
-                return resultado;
             }
-        );
-        return dataSource;
+            return resultado;
+        });
+        return listaOrdenada;
     }
 
     @Override
@@ -90,5 +82,16 @@ public class ClienteListRepositorio implements CrudRepositorio,
         //Volvemos a utilizar el buscar por ID para poder eliminar el cliente
         Cliente c = this.porId(id);
         this.dataSource.remove(c);
+    }
+
+
+    private int ordenar(String campo, Cliente a, Cliente b){
+        int resultado = 0;
+        switch (campo){
+            case "id" -> resultado = a.getId().compareTo(b.getId());
+            case "nombre" -> resultado = a.getNombre().compareTo(b.getNombre());
+            case "apellido" -> resultado = a.getApellido().compareTo(b.getApellido());
+        }
+        return resultado;
     }
 }
