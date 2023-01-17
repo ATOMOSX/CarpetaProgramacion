@@ -48,6 +48,14 @@ public class EjemploGenericos {
         imprimirClientes(clientePremiums);
         imprimirClientes(clientesLista);
         imprimirClientes(List.of(clientesArreglo));
+
+        System.out.println("=========== Con el metodo Maximo en tres objetos ===========");
+        System.out.println("Maximo en los numeros 12345, 54321, 98745 es: "
+                + maximo(12345, 54321, 98745));
+        System.out.println("Maximo en los numeros 1.6, 1.59, 1.58 es: "
+                + maximo(1.6, 1.59, 1.58));
+        System.out.println("Maximo de zanahoria, arandanos, manzana es: "
+                + maximo("Zanahoria", "Aranadanos", "Manzana"));
     }
 
     //Creamos un método generic "<T>", Se puede poner cualquier letra en mayúscula, pero
@@ -78,5 +86,17 @@ public class EjemploGenericos {
     //Pasar también los metodos hijos y que no generen error
     public static void imprimirClientes (List< ? extends Cliente> clientes){
         clientes.forEach(System.out::println);
+    }
+
+    //Creamos un método generico que dara el maxims de 3 objetos
+    public static <T extends Comparable<T>> T maximo (T a, T b, T c){
+        T max = a;
+        if (b.compareTo(max) > 0){
+            max = b;
+        }
+        if (c.compareTo(max) > 0){
+            max = c;
+        }
+        return max;
     }
 }
