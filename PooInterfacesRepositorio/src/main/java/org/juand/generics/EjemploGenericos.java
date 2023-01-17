@@ -42,6 +42,12 @@ public class EjemploGenericos {
                 new ClientePremium("Daniela", "Lopez"),
                 new ClientePremium("Juan", "David")});
         clientePremiums.forEach(System.out::println);
+
+        System.out.println("=========== Con el metodo imprimir clientes ===========");
+        imprimirClientes(clientes);
+        imprimirClientes(clientePremiums);
+        imprimirClientes(clientesLista);
+        imprimirClientes(List.of(clientesArreglo));
     }
 
     //Creamos un método generic "<T>", Se puede poner cualquier letra en mayúscula, pero
@@ -66,5 +72,11 @@ public class EjemploGenericos {
             System.out.println(elemento);
         }
         return Arrays.asList(clientes);
+    }
+
+    //Creamos una clase para imprimir y hacemos un implemets para poder
+    //Pasar también los metodos hijos y que no generen error
+    public static void imprimirClientes (List< ? extends Cliente> clientes){
+        clientes.forEach(System.out::println);
     }
 }
