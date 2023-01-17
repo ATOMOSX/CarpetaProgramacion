@@ -3,34 +3,34 @@ package org.juand.genericsclass;
 public class EjemploGenericos {
     public static void main(String[] args) {
 
-        Camion camionCaballos = new Camion(3);
+        Camion<Animal> camionCaballos = new Camion<>(3);
         camionCaballos.addObjeto(new Animal("Peregrino", "Caballo"));
         camionCaballos.addObjeto(new Animal("Porcino", "Caballo"));
         camionCaballos.addObjeto(new Animal("Tunquen", "Caballo"));
+        imprimirCamion(camionCaballos);
 
-        for (Object objeto : camionCaballos){
-            Animal animal = (Animal) objeto;
-            System.out.println(animal.getNombre() + " tipo: " + animal.getTipo());
-        }
-
-        Camion transMaquinaria = new Camion(3);
+        Camion<Maquinaria> transMaquinaria = new Camion<>(3);
         transMaquinaria.addObjeto(new Maquinaria("Buldozer"));
         transMaquinaria.addObjeto(new Maquinaria("Grúa horquilla"));
         transMaquinaria.addObjeto(new Maquinaria("Perforadora"));
+        imprimirCamion(transMaquinaria);
 
-        for (Object objeto : transMaquinaria){
-            Maquinaria maquinaria = (Maquinaria) objeto;
-            System.out.println("Tipo de maquinaria: " + maquinaria.getTipo());
-        }
-
-        Camion transAuto = new Camion(3);
+        Camion<Automovil> transAuto = new Camion<>(3);
         transAuto.addObjeto(new Automovil("Mazda"));
         transAuto.addObjeto(new Automovil("Nissan"));
         transAuto.addObjeto(new Automovil("Chevrolet"));
+        imprimirCamion(transAuto);
+    }
 
-        for (Object objeto : transAuto){
-            Automovil automovil = (Automovil) objeto;
-            System.out.println("Marca de automovil: " + automovil.getMarca());
+    public static <T> void imprimirCamion(Camion<T> camion){
+        for (T a : camion){
+            if (a instanceof Animal animal){
+                System.out.println(animal.getNombre() + " tipo: " + animal.getTipo());
+            } else if (a instanceof Maquinaria maquinaria) {
+                System.out.println("Tipo de maquinaria: " + maquinaria.getTipo());
+            }else if (a instanceof Automovil automovil){
+                System.out.println("Marca de automovil: " + automovil.getMarca());
+            }
         }
     }
 }
