@@ -3,7 +3,6 @@ package org.juand.genericsclass;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Objects;
 
 public class Camion implements Iterable {
 
@@ -15,9 +14,9 @@ public class Camion implements Iterable {
         this.objetos = new ArrayList<>();
     }
 
-    public void addObjeto(Objects objetos){
-        if (this.objetos.size() < maximo) {
-            this.objetos.add(objetos);
+    public void addObjeto(Object objeto){
+        if (this.objetos.size() <= maximo) {
+            this.objetos.add(objeto);
         }else {
             throw new RuntimeException("No hay mas espacio en el camion");
         }
