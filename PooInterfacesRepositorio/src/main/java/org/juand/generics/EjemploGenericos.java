@@ -1,6 +1,7 @@
 package org.juand.generics;
 
 import org.juand.poo.interfaces.modelo.Cliente;
+import org.juand.poo.interfaces.modelo.ClientePremium;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -35,11 +36,27 @@ public class EjemploGenericos {
         List<String> nombres = fromArrayToList(new String[]{"Juan", "David",
                 "Daniela", "Sasha"}, enterosArreglos);
         nombres.forEach(System.out::println);
+
+        System.out.println("=========== Lista de Clientes premium ===========");
+        List<ClientePremium> clientePremiums = fromArrayToList(new ClientePremium[] {
+                new ClientePremium("Daniela", "Lopez"),
+                new ClientePremium("Juan", "David")});
+        clientePremiums.forEach(System.out::println);
     }
 
     //Creamos un método generic "<T>", Se puede poner cualquier letra en mayúscula, pero
     //la "T" se suele utilizar para trabajar con listas
     public static <T> List<T> fromArrayToList(T[] clientes){
+        return Arrays.asList(clientes);
+    }
+
+    //Creamos un método generico con límites con sobrecarga
+    public static <T extends  Number> List<T> fromArrayToList(T[] clientes){
+        return Arrays.asList(clientes);
+    }
+
+    //Aqui aceptará cualquier clase que sea de tipo cliente
+    public static <T extends  Cliente & Comparable<T>> List<T> fromArrayToList(T[] clientes){
         return Arrays.asList(clientes);
     }
 
