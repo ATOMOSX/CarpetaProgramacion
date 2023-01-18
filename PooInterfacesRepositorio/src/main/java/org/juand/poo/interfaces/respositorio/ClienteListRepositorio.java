@@ -3,16 +3,9 @@ package org.juand.poo.interfaces.respositorio;
 import org.juand.poo.interfaces.modelo.Cliente;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
-public class ClienteListRepositorio implements FullRepositorio{
-
-    private List<Cliente> dataSource;
-
-    public ClienteListRepositorio() {
-        this.dataSource = new ArrayList<>();
-    }
+public class ClienteListRepositorio extends AbstractaListRepositorio<Cliente>{
 
     @Override
     public List<Cliente> listar(String campo, Direccion direccion) {
@@ -30,16 +23,6 @@ public class ClienteListRepositorio implements FullRepositorio{
             return resultado;
         });
         return listaOrdenada;
-    }
-
-    @Override
-    public List<Cliente> listar(int desde, int hasta) {
-        return dataSource.subList(desde, hasta);
-    }
-
-    @Override
-    public List<Cliente> listar() {
-        return dataSource;
     }
 
     @Override
@@ -62,12 +45,6 @@ public class ClienteListRepositorio implements FullRepositorio{
     }
 
     @Override
-    public void crear(Cliente cliente) {
-        //Creamos el cliente
-        this.dataSource.add(cliente);
-    }
-
-    @Override
     public void editar(Cliente cliente) {
         //Utilizamos el buscar cliente por ID para poder modificarlo mediante
         //getters y setters
@@ -75,19 +52,6 @@ public class ClienteListRepositorio implements FullRepositorio{
         c.setNombre(cliente.getNombre());
         c.setApellido(cliente.getApellido());
     }
-
-    @Override
-    public void eliminar(Integer id) {
-        //Volvemos a utilizar el buscar por ID para poder eliminar el cliente
-        Cliente c = this.porId(id);
-        this.dataSource.remove(c);
-    }
-
-    @Override
-    public int total() {
-        return this.dataSource.size();
-    }
-
 
     private int ordenar(String campo, Cliente a, Cliente b){
         int resultado = 0;

@@ -8,7 +8,7 @@ import java.util.List;
 public class EjemploRepositorio {
     public static void main(String[] args) {
 
-        FullRepositorio repositorio = new ClienteListRepositorio();
+        FullRepositorio<Cliente> repositorio = new ClienteListRepositorio();
         repositorio.crear(new Cliente("Juan David", "Lopez"));
         repositorio.crear(new Cliente("Daniela", "Gomez"));
         repositorio.crear(new Cliente("Eileen", "Gomez"));
@@ -40,7 +40,7 @@ public class EjemploRepositorio {
         Cliente editar = new Cliente("Ledin", "Gomez");
         editar.setId(2);
         repositorio.editar(editar);
-        Cliente daniela = repositorio.porId(2);
+        //Cliente daniela = repositorio.porId(2);
         (repositorio).listar("apellido", Direccion.DESCENDENTE).forEach(System.out::println);
 
         System.out.println("============== Eliminar ==============");
