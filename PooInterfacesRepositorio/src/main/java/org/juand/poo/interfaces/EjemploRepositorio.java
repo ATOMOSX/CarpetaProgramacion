@@ -2,6 +2,7 @@ package org.juand.poo.interfaces;
 
 import org.juand.poo.interfaces.modelo.Cliente;
 import org.juand.poo.interfaces.respositorio.*;
+import org.juand.poo.interfaces.respositorio.lista.ClienteListRepositorio;
 
 import java.util.List;
 

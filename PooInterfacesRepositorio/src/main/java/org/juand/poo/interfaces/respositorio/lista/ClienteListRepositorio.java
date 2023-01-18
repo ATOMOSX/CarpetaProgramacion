@@ -1,11 +1,13 @@
-package org.juand.poo.interfaces.respositorio;
+package org.juand.poo.interfaces.respositorio.lista;
 
 import org.juand.poo.interfaces.modelo.Cliente;
+import org.juand.poo.interfaces.respositorio.AbstractaListRepositorio;
+import org.juand.poo.interfaces.respositorio.Direccion;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ClienteListRepositorio extends AbstractaListRepositorio<Cliente>{
+public class ClienteListRepositorio extends AbstractaListRepositorio<Cliente> {
 
     @Override
     public List<Cliente> listar(String campo, Direccion direccion) {
