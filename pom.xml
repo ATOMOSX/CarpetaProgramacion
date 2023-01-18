@@ -33,6 +33,7 @@
         <module>PooInterfaces</module>
         <module>PooInterfaces/Tarea1PooInterfaces</module>
         <module>PooInterfacesRepositorio</module>
+        <module>PooInterfacesRepositorio/Tarea1</module>
     </modules>
 
     <properties>
