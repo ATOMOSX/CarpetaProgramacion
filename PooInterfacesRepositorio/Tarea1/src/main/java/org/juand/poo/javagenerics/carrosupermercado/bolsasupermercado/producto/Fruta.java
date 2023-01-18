@@ -1,4 +1,4 @@
-package org.juand.poo.javagenerics.carrosupermercado.producto;
+package org.juand.poo.javagenerics.carrosupermercado.bolsasupermercado.producto;
 
 public class Fruta extends Producto{
 

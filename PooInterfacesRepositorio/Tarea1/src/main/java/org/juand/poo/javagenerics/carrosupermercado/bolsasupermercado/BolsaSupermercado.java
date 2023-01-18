@@ -1,4 +1,4 @@
-package org.juand.poo.javagenerics.carrosupermercado;
+package org.juand.poo.javagenerics.carrosupermercado.bolsasupermercado;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,13 +13,14 @@ public class BolsaSupermercado<T>{
         this.productos = new ArrayList<>();
     }
 
-    public void addProducto(T producto){
+    public BolsaSupermercado<T> addProducto(T producto){
         if (this.productos.size() <= maximo){
             this.productos.add(producto);
         }else {
             throw new RuntimeException("No hay mas espacio para agregar un producto " +
                     "Recuerde que el maximo son 5");
         }
+        return this;
     }
 
     public List<T> getProductos() {

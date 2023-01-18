@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/src/main/java/org/juand/poo/javagenerics/Ejemplo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/src/main/java/org/juand/poo/javagenerics/carrosupermercado/BolsaSupermercado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/src/main/java/org/juand/poo/javagenerics/carrosupermercado/producto/Fruta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/src/main/java/org/juand/poo/javagenerics/carrosupermercado/producto/Lacteo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/src/main/java/org/juand/poo/javagenerics/carrosupermercado/producto/Limpieza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/src/main/java/org/juand/poo/javagenerics/carrosupermercado/producto/NoPerecible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/src/main/java/org/juand/poo/javagenerics/carrosupermercado/producto/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/src/main/java/org/juand/poo/javagenerics/carrosupermercado/EjemploCarroSupermercado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/src/main/java/org/juand/poo/javagenerics/Ejemplo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/src/main/java/org/juand/poo/javagenerics/carrosupermercado/BolsaSupermercado.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/src/main/java/org/juand/poo/javagenerics/carrosupermercado/bolsasupermercado/BolsaSupermercado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/src/main/java/org/juand/poo/javagenerics/carrosupermercado/producto/Fruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/src/main/java/org/juand/poo/javagenerics/carrosupermercado/bolsasupermercado/producto/Fruta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/src/main/java/org/juand/poo/javagenerics/carrosupermercado/producto/Lacteo.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/src/main/java/org/juand/poo/javagenerics/carrosupermercado/bolsasupermercado/producto/Lacteo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/src/main/java/org/juand/poo/javagenerics/carrosupermercado/producto/Limpieza.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/src/main/java/org/juand/poo/javagenerics/carrosupermercado/bolsasupermercado/producto/Limpieza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/src/main/java/org/juand/poo/javagenerics/carrosupermercado/producto/NoPerecible.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/src/main/java/org/juand/poo/javagenerics/carrosupermercado/bolsasupermercado/producto/NoPerecible.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/src/main/java/org/juand/poo/javagenerics/carrosupermercado/producto/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooInterfacesRepositorio/Tarea1/src/main/java/org/juand/poo/javagenerics/carrosupermercado/bolsasupermercado/producto/Producto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
