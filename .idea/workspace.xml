@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PooExeption/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooExeption/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooExeption/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PooExeption/src/main/java/org/juand/poo/exeption/ejemplo/Ejemplo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooExeption/src/main/java/org/juand/poo/exeption/ejemplo/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooExeption/src/main/java/org/juand/poo/exeption/ejemplo/DivisionPorZeroException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooExeption/src/main/java/org/juand/poo/exeption/ejemplo/Ejemplo.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooExeption/src/main/java/org/juand/poo/exeption/ejemplo/Ejemplo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
