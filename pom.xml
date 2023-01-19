@@ -34,7 +34,7 @@
         <module>PooInterfaces/Tarea1PooInterfaces</module>
         <module>PooInterfacesRepositorio</module>
         <module>PooInterfacesRepositorio\Tarea1</module>
-        <module>PooExeption</module>
+        <module>PooException</module>
     </modules>
 
     <properties>

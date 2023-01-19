@@ -5,10 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PooExeption/src/main/java/org/juand/poo/exeption/ejemplo/NumeroFormatoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/generics/EjemploGenericos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/genericsclass/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/genericsclass/Automovil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/genericsclass/Camion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/genericsclass/EjemploGenericos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/genericsclass/Maquinaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/EjemploRepositorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/EjemploRepositorioProducto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/modelo/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/modelo/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/modelo/ClientePremium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/modelo/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/AbstractaListRepositorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/ContableRepositorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/CrudRepositorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/Direccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/FullRepositorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/OrdenableRepositorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/PaginableRepositorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/excepciones/AccsesoDatoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/excepciones/LecturaAccesoDatoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/lista/ClienteListRepositorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/lista/ProductoListRepositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooExeption/src/main/java/org/juand/poo/exeption/ejemplo/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooExeption/src/main/java/org/juand/poo/exeption/ejemplo/Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooExeption/src/main/java/org/juand/poo/exeption/ejemplo/Ejemplo.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooExeption/src/main/java/org/juand/poo/exeption/ejemplo/Ejemplo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooExeption/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooExeption/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooExeption/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooExeption/src/main/java/org/juand/poo/exeption/ejemplo/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooException/src/main/java/org/juand/poo/exeption/ejemplo/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooExeption/src/main/java/org/juand/poo/exeption/ejemplo/DivisionPorZeroException.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooException/src/main/java/org/juand/poo/exeption/ejemplo/DivisionPorZeroException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooExeption/src/main/java/org/juand/poo/exeption/ejemplo/Ejemplo.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooException/src/main/java/org/juand/poo/exeption/ejemplo/Ejemplo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PooExeption/src/main/java/org/juand/poo/exeption/ejemplo/NumeroFormatoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooException/src/main/java/org/juand/poo/exeption/ejemplo/NumeroFormatoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +94,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\PooExeption" />
+      <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\PooException\src\main\java" />
       <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\PooInterfacesRepositorio\Tarea1" />
       <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\PooInterfacesRepositorio" />
       <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\PooInterfaces\Tarea1PooInterfaces" />
-      <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\PooInterfaces" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.juand.poo.interfaces" />
@@ -80,7 +110,7 @@
   <component name="RunManager" selected="Application.Ejemplo">
     <configuration name="Ejemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.poo.exeption.ejemplo.Ejemplo" />
-      <module name="PooExeption" />
+      <module name="PooException" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.juand.poo.exeption.ejemplo.*" />
