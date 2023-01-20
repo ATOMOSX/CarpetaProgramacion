@@ -8,4 +8,5 @@ Esta carpeta es con el fin de aprender un poco mas sobre Java y todos sus compon
 
 ## [Programación orientada a objetos](./Poo)
 
+## [Programación orientada a objetos paquetes](./Paquetes)
 
