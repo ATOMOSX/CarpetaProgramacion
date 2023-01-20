@@ -1,8 +1,10 @@
 package juand.poo.interfaces.repositorio.exception.poo.interfaces.respositorio.lista;
 
-import org.juand.poo.interfaces.modelo.Cliente;
-import org.juand.poo.interfaces.respositorio.AbstractaListRepositorio;
-import org.juand.poo.interfaces.respositorio.Direccion;
+import juand.poo.interfaces.repositorio.exception.poo.interfaces.modelo.Cliente;
+import juand.poo.interfaces.repositorio.exception.poo.interfaces.respositorio.AbstractaListRepositorio;
+import juand.poo.interfaces.repositorio.exception.poo.interfaces.respositorio.Direccion;
+import juand.poo.interfaces.repositorio.exception.poo.interfaces.respositorio.excepciones.LecturaAccesoDatoException;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,7 +30,7 @@ public class ClienteListRepositorio extends AbstractaListRepositorio<Cliente> {
     }
 
     @Override
-    public void editar(Cliente cliente) {
+    public void editar(Cliente cliente) throws LecturaAccesoDatoException {
         //Utilizamos el buscar cliente por ID para poder modificarlo mediante
         //getters y setters
         Cliente c = this.porId(cliente.getId());

@@ -1,7 +1,8 @@
 package juand.poo.interfaces.repositorio.exception.generics;
 
-import org.juand.poo.interfaces.modelo.Cliente;
-import org.juand.poo.interfaces.modelo.ClientePremium;
+
+import juand.poo.interfaces.repositorio.exception.poo.interfaces.modelo.Cliente;
+import juand.poo.interfaces.repositorio.exception.poo.interfaces.modelo.ClientePremium;
 
 import java.util.ArrayList;
 import java.util.Arrays;

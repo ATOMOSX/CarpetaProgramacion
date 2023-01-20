@@ -1,6 +1,8 @@
 package juand.poo.interfaces.repositorio.exception.poo.interfaces.respositorio;
 
-import org.juand.poo.interfaces.modelo.BaseEntity;
+import juand.poo.interfaces.repositorio.exception.poo.interfaces.modelo.BaseEntity;
+import juand.poo.interfaces.repositorio.exception.poo.interfaces.respositorio.excepciones.EscrituraAccesoDatoException;
+import juand.poo.interfaces.repositorio.exception.poo.interfaces.respositorio.excepciones.LecturaAccesoDatoException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +26,10 @@ public abstract class AbstractaListRepositorio<T extends BaseEntity> implements 
     }
 
     @Override
-    public T porId(Integer id) {
+    public T porId(Integer id) throws LecturaAccesoDatoException {
+        if (id == null || id <= 0){
+            throw new LecturaAccesoDatoException("Id invalido debe ser mayor a cero");
+        }
         //Asignamos una variable nula
         T cliente = null;
 
@@ -38,18 +43,24 @@ public abstract class AbstractaListRepositorio<T extends BaseEntity> implements 
                 break;
             }
         }
+        if (cliente == null){
+            throw new LecturaAccesoDatoException("No existe un registro con el id " + id);
+        }
         //retornamos el cliente encontrado
         return cliente;
     }
 
     @Override
-    public void crear(T cliente) {
+    public void crear(T cliente) throws EscrituraAccesoDatoException {
+        if (cliente == null){
+            throw new EscrituraAccesoDatoException("Error al insertar un objeto null");
+        }
         //Creamos el cliente
         this.dataSource.add(cliente);
     }
 
     @Override
-    public void eliminar(Integer id) {
+    public void eliminar(Integer id) throws LecturaAccesoDatoException {
         //Volvemos a utilizar el buscar por ID para poder eliminar el cliente
         this.dataSource.remove(this.porId(id));
     }

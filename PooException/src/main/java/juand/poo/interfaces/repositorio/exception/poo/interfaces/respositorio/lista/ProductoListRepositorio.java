@@ -1,15 +1,17 @@
 package juand.poo.interfaces.repositorio.exception.poo.interfaces.respositorio.lista;
 
-import org.juand.poo.interfaces.modelo.Producto;
-import org.juand.poo.interfaces.respositorio.AbstractaListRepositorio;
-import org.juand.poo.interfaces.respositorio.Direccion;
+
+import juand.poo.interfaces.repositorio.exception.poo.interfaces.modelo.Producto;
+import juand.poo.interfaces.repositorio.exception.poo.interfaces.respositorio.AbstractaListRepositorio;
+import juand.poo.interfaces.repositorio.exception.poo.interfaces.respositorio.Direccion;
+import juand.poo.interfaces.repositorio.exception.poo.interfaces.respositorio.excepciones.LecturaAccesoDatoException;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ProductoListRepositorio extends AbstractaListRepositorio<Producto> {
     @Override
-    public void editar(Producto producto) {
+    public void editar(Producto producto) throws LecturaAccesoDatoException {
         Producto prod = porId(producto.getId());
         prod.setDescripcion(producto.getDescripcion());
         prod.setPrecio(producto.getPrecio());
