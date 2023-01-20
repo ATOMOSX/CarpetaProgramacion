@@ -3,6 +3,7 @@ package juand.poo.interfaces.repositorio.exception.poo.interfaces.respositorio;
 import juand.poo.interfaces.repositorio.exception.poo.interfaces.modelo.BaseEntity;
 import juand.poo.interfaces.repositorio.exception.poo.interfaces.respositorio.excepciones.EscrituraAccesoDatoException;
 import juand.poo.interfaces.repositorio.exception.poo.interfaces.respositorio.excepciones.LecturaAccesoDatoException;
+import juand.poo.interfaces.repositorio.exception.poo.interfaces.respositorio.excepciones.RegistroDuplicadoAccesoDatoException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -54,6 +55,10 @@ public abstract class AbstractaListRepositorio<T extends BaseEntity> implements 
     public void crear(T cliente) throws EscrituraAccesoDatoException {
         if (cliente == null){
             throw new EscrituraAccesoDatoException("Error al insertar un objeto null");
+        }
+        if (this.dataSource.contains(cliente)){
+            throw new RegistroDuplicadoAccesoDatoException("Error el usuario con el id "
+                    + cliente.getId() + " Ya existe en el repositorio");
         }
         //Creamos el cliente
         this.dataSource.add(cliente);

@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/excepciones/RegistroDuplicadoAccesoDatoException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooException/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PooException/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/generics/EjemploGenericos.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/generics/EjemploGenericos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/EjemploRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/EjemploRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/EjemploRepositorioProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/EjemploRepositorioProducto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/AbstractaListRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/AbstractaListRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/CrudRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/CrudRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/lista/ClienteListRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/lista/ClienteListRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/lista/ProductoListRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/lista/ProductoListRepositorio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

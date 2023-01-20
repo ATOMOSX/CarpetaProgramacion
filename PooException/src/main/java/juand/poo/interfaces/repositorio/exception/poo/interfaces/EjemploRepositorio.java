@@ -7,6 +7,7 @@ import juand.poo.interfaces.repositorio.exception.poo.interfaces.respositorio.Fu
 import juand.poo.interfaces.repositorio.exception.poo.interfaces.respositorio.excepciones.AccsesoDatoException;
 import juand.poo.interfaces.repositorio.exception.poo.interfaces.respositorio.excepciones.EscrituraAccesoDatoException;
 import juand.poo.interfaces.repositorio.exception.poo.interfaces.respositorio.excepciones.LecturaAccesoDatoException;
+import juand.poo.interfaces.repositorio.exception.poo.interfaces.respositorio.excepciones.RegistroDuplicadoAccesoDatoException;
 import juand.poo.interfaces.repositorio.exception.poo.interfaces.respositorio.lista.ClienteListRepositorio;
 
 import java.util.List;
@@ -19,9 +20,11 @@ public class EjemploRepositorio {
             repositorio.crear(new Cliente("Juan David", "Lopez"));
             repositorio.crear(new Cliente("Daniela", "Gomez"));
             repositorio.crear(new Cliente("Eileen", "Gomez"));
-            repositorio.crear(new Cliente("Sasha", "Lopez"));
+            Cliente sasha = new Cliente("Sasha", "Lopez");
+            repositorio.crear(sasha);
+            repositorio.crear(sasha);
 
-            repositorio.crear(null);
+            //repositorio.crear(null);
 
             List<Cliente> clienteList = repositorio.listar();
             clienteList.forEach(System.out::println);
@@ -57,13 +60,16 @@ public class EjemploRepositorio {
 
             System.out.println("============== Total ==============");
             System.out.println("Total de registros: " + repositorio.total());
+        }catch (RegistroDuplicadoAccesoDatoException e){
+            System.out.println("Registro de dato duplicado: " + e.getMessage());
+            e.printStackTrace();
         } catch (LecturaAccesoDatoException e) {
             System.out.println("Lectura: " + e.getMessage());
             e.printStackTrace();
         } catch (EscrituraAccesoDatoException e){
             System.out.println("Escritura: " + e.getMessage());
             e.printStackTrace();
-        }catch (AccsesoDatoException e) {
+        } catch (AccsesoDatoException e) {
             System.out.println("Generica " + e.getMessage());
             e.printStackTrace();
         }
