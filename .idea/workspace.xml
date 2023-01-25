@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/excepciones/RegistroDuplicadoAccesoDatoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Colecciones/src/org/juand/ejemplos/set/EjemplosHasSetAgregar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/EjemploRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/EjemploRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/AbstractaListRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/PooException/src/main/java/juand/poo/interfaces/repositorio/exception/poo/interfaces/respositorio/AbstractaListRepositorio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,7 @@
       <recent name="Seccion13" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.juand.poo.interfaces.repositorio.exception.poo.interfaces.EjemploRepositorio">
+  <component name="RunManager" selected="Application.EjemplosHasSetAgregar">
     <configuration name="Ejemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.poo.exeption.ejemplo.Ejemplo" />
       <module name="PooException" />
@@ -117,6 +116,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjemplosHasSetAgregar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.ejemplos.set.EjemplosHasSetAgregar" />
+      <module name="Colecciones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.juand.ejemplos.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tarea4Seccion5" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seccion5.Tarea4Seccion5" />
       <module name="CarpetaProgramacion" />
@@ -143,26 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.juand.genericsclass.EjemploGenericos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.genericsclass.EjemploGenericos" />
-      <module name="PooInterfacesRepositorio" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.juand.genericsclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemplosHasSetAgregar" />
         <item itemvalue="Application.juand.poo.interfaces.repositorio.exception.poo.interfaces.EjemploRepositorio" />
         <item itemvalue="Application.Ejemplo" />
         <item itemvalue="Application.EjemploRepositorioProducto" />
         <item itemvalue="Application.EjemploRepositorio" />
-        <item itemvalue="Application.org.juand.genericsclass.EjemploGenericos" />
       </list>
     </recent_temporary>
   </component>
