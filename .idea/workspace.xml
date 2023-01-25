@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Colecciones/src/org/juand/ejemplos/set/EjemplosHasSetAgregar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Colecciones/src/org/juand/ejemplos/set/EjemploHashSetBuscarDuplicado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Colecciones/src/org/juand/ejemplos/set/EjemploHashSetBuscarDuplicado2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +76,7 @@
       <recent name="Seccion13" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemplosHasSetAgregar">
+  <component name="RunManager" selected="Application.EjemploHashSetBuscarDuplicado2">
     <configuration name="Ejemplo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.poo.exeption.ejemplo.Ejemplo" />
       <module name="PooException" />
@@ -90,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploRepositorio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.poo.interfaces.EjemploRepositorio" />
-      <module name="PooInterfacesRepositorio" />
+    <configuration name="EjemploHashSetBuscarDuplicado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.ejemplos.set.EjemploHashSetBuscarDuplicado" />
+      <module name="Colecciones" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juand.poo.interfaces.*" />
+          <option name="PATTERN" value="org.juand.ejemplos.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploRepositorioProducto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.poo.interfaces.EjemploRepositorioProducto" />
-      <module name="PooInterfacesRepositorio" />
+    <configuration name="EjemploHashSetBuscarDuplicado2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.ejemplos.set.EjemploHashSetBuscarDuplicado2" />
+      <module name="Colecciones" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juand.poo.interfaces.*" />
+          <option name="PATTERN" value="org.juand.ejemplos.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploHashSetBuscarDuplicado2" />
+        <item itemvalue="Application.EjemploHashSetBuscarDuplicado" />
         <item itemvalue="Application.EjemplosHasSetAgregar" />
         <item itemvalue="Application.juand.poo.interfaces.repositorio.exception.poo.interfaces.EjemploRepositorio" />
         <item itemvalue="Application.Ejemplo" />
-        <item itemvalue="Application.EjemploRepositorioProducto" />
-        <item itemvalue="Application.EjemploRepositorio" />
       </list>
     </recent_temporary>
   </component>
