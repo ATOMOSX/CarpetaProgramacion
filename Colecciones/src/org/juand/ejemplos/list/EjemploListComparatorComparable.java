@@ -1,4 +1,4 @@
-package org.juand.ejemplos.set;
+package org.juand.ejemplos.list;
 
 import org.juand.ejemplos.modelo.Alumno;
 
