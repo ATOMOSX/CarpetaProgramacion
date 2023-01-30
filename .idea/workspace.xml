@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Colecciones/src/org/juand/ejemplos/maps/EjemploTreeMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Colecciones/src/org/juand/ejemplos/maps/EjemploHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Colecciones/src/org/juand/ejemplos/maps/EjemploHashMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,14 +68,14 @@
       <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\PooInterfaces\Tarea1PooInterfaces" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.juand.ejemplos.maps" />
       <recent name="org.juand.ejemplos.set" />
       <recent name="org.juand.poo.interfaces" />
       <recent name="org.juand.poo.interfaces.respositorio" />
       <recent name="org.juand.ejemplo" />
-      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploHashMap">
+  <component name="RunManager" selected="Application.EjemploTreeMap">
     <configuration name="EjemploArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.ejemplos.set.EjemploArrayList" />
       <module name="Colecciones" />
@@ -95,19 +95,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.juand.ejemplos.maps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjemploHashSetUnicidad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.ejemplos.set.EjemploHashSetUnicidad" />
-      <module name="Colecciones" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.juand.ejemplos.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,6 +128,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjemploTreeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.ejemplos.maps.EjemploTreeMap" />
+      <module name="Colecciones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.juand.ejemplos.maps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tarea4Seccion5" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seccion5.Tarea4Seccion5" />
       <module name="CarpetaProgramacion" />
@@ -156,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploTreeMap" />
         <item itemvalue="Application.EjemploHashMap" />
         <item itemvalue="Application.EjemploLinkedList" />
         <item itemvalue="Application.EjemploArrayList" />
         <item itemvalue="Application.EjemploListComparatorComparable" />
-        <item itemvalue="Application.EjemploHashSetUnicidad" />
       </list>
     </recent_temporary>
   </component>
