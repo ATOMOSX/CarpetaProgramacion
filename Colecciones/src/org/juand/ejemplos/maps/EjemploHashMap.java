@@ -56,33 +56,50 @@ public class EjemploHashMap {
 
         System.out.println("=========== Collection ===========");
         Collection<Object> valores = persona.values();
-        for (Object valor : valores){
+        for (Object valor : valores) {
             System.out.println("valor = " + valor);
         }
 
         System.out.println("=========== Set ===========");
         Set<String> llaves = persona.keySet();
-        for (String valor : llaves){
-            System.out.println("valor = " + valor);
+        for (String llave : llaves) {
+            Object valor = persona.get(llave);
+            if (valor instanceof Map) {
+                Map<String, String> direccionMap = (Map<String, String>) valor;
+                for (Map.Entry<String, String> parDir : direccionMap.entrySet()) {
+                    System.out.println(parDir.getKey() + " =>" + parDir.getValue());
+                }
+            } else {
+                System.out.println(llave + " => " + valor);
+            }
+            System.out.println("valor = " + llave);
         }
 
         System.out.println("=========== Map entrySet ===========");
-        for (Map.Entry<String, Object> par : persona.entrySet()){
-            System.out.println(par.getKey() + " => " + par.getValue());
+        for (Map.Entry<String, Object> par : persona.entrySet()) {
+            Object valor = par.getValue();
+            if (valor instanceof Map) {
+                Map<String, String> direccionMap = (Map<String, String>) valor;
+                System.out.println("El pais de " + persona.get("nombre") + " : " + direccionMap.get("pais"));
+                System.out.println("El estado de " + persona.get("estado") + " : " + direccionMap.get("estado"));
+                System.out.println("La ciudad de " + persona.get("nombre") + " : " + direccionMap.get("ciudad "));
+            } else {
+                System.out.println(par.getKey() + " => " + par.getValue());
+            }
         }
 
         System.out.println("=========== Map keySet ===========");
-        for (String llave : persona.keySet()){
+        for (String llave : persona.keySet()) {
             Object valor = persona.get(llave);
-            System.out.println(llave + " => " +  valor);
+            System.out.println(llave + " => " + valor);
         }
 
         System.out.println("=========== forEach ===========");
         persona.forEach((llave, valor) -> {
-            System.out.println(llave + " => " +  valor);
+            System.out.println(llave + " => " + valor);
         });
 
-        System.out.println("Total: " +persona.size());
+        System.out.println("Total: " + persona.size());
         System.out.println("Contiene elementos: " + !persona.isEmpty());
 
         //para modificar elementos
