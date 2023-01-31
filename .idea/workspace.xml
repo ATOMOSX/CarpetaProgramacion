@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ExtenderThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/treahds/NombreThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/InterfaceRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/runnable/ViajeTarea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,26 +76,13 @@
       <recent name="org.juand.ejemplo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExtenderThread">
+  <component name="RunManager" selected="Application.InterfaceRunnable">
     <configuration name="EjemploHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.ejemplos.maps.EjemploHashMap" />
       <module name="Colecciones" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.juand.ejemplos.maps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjemploLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.ejemplos.set.EjemploLinkedList" />
-      <module name="Colecciones" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.juand.ejemplos.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,6 +105,19 @@
     </configuration>
     <configuration name="ExtenderThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ExtenderThread" />
+      <module name="Hilos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.juand.hilos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterfaceRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.InterfaceRunnable" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
@@ -158,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterfaceRunnable" />
         <item itemvalue="Application.ExtenderThread" />
         <item itemvalue="Application.ListVuelos" />
         <item itemvalue="Application.EjemploTreeMap" />
         <item itemvalue="Application.EjemploHashMap" />
-        <item itemvalue="Application.EjemploLinkedList" />
       </list>
     </recent_temporary>
   </component>
