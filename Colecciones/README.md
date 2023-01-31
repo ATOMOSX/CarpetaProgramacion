@@ -1,12 +1,3 @@
-# CarpetaProgramacion
+# Colecciones en java
 
-## Curso de estudio en java desde 0
-
-Esta carpeta es con el fin de aprender un poco mas sobre Java y todos sus componentes y metodologias.
-
-## [Variables y operadores](./VariablesYOperadores)
-
-## [Programación orientada a objetos](./Poo)
-
-## [Programación orientada a objetos paquetes](./Paquetes)
-
+Aqui se vera todo lo que son las colecciones en java, como los Map, Set, List, Sort
