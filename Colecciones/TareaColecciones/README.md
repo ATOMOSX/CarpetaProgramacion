@@ -1,12 +1,7 @@
-# CarpetaProgramacion
+# Tarea Colecciones
 
-## Curso de estudio en java desde 0
+Una lista de objetos List del tipo Vuelo que mantenga el mismo orden de registro de la tabla.
 
-Esta carpeta es con el fin de aprender un poco mas sobre Java y todos sus componentes y metodologias.
+La clase Vuelo debe contener los atributos nombre (string), origen (string), destino (string), fecha de llegada que incluya fecha y hora (java.util.Date) y cantidad de pasajeros.
 
-## [Variables y operadores](./VariablesYOperadores)
-
-## [Programación orientada a objetos](./Poo)
-
-## [Programación orientada a objetos paquetes](./Paquetes)
-
+Se pide ordenar por llagada de forma ascendente, obtener el ultimo vuelo en llegar y también se pide el vuelo que tiene menor número de pasajeros.
