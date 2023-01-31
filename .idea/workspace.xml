@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Colecciones/TareaColecciones/src/org/juand/aeropuerto/ListVuelos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Colecciones/TareaColecciones/src/org/juand/aeropuerto/Vuelo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Colecciones/TareaColecciones/src/org/juand/aeropuerto/ListVuelos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Colecciones/TareaColecciones/src/org/juand/aeropuerto/ListVuelos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,7 @@
       <recent name="org.juand.ejemplo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploTreeMap">
+  <component name="RunManager" selected="Application.ListVuelos">
     <configuration name="EjemploArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.ejemplos.set.EjemploArrayList" />
       <module name="Colecciones" />
@@ -117,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploListComparatorComparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.ejemplos.set.EjemploListComparatorComparable" />
+    <configuration name="EjemploTreeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.ejemplos.maps.EjemploTreeMap" />
       <module name="Colecciones" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juand.ejemplos.set.*" />
+          <option name="PATTERN" value="org.juand.ejemplos.maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploTreeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.ejemplos.maps.EjemploTreeMap" />
-      <module name="Colecciones" />
+    <configuration name="ListVuelos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.aeropuerto.ListVuelos" />
+      <module name="TareaColecciones" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juand.ejemplos.maps.*" />
+          <option name="PATTERN" value="org.juand.aeropuerto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListVuelos" />
         <item itemvalue="Application.EjemploTreeMap" />
         <item itemvalue="Application.EjemploHashMap" />
         <item itemvalue="Application.EjemploLinkedList" />
         <item itemvalue="Application.EjemploArrayList" />
-        <item itemvalue="Application.EjemploListComparatorComparable" />
       </list>
     </recent_temporary>
   </component>
