@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemplosyn/EjemploProductorConsumidorJava8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemplosyn/Panaderia.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemplosyn/Panaderia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemplotimer/EjemploAgendarTareaTimer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,20 @@
       <recent name="org.juand.poo.interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploProductorConsumidorJava8">
+  <component name="RunManager" selected="Application.EjemploAgendarTareaTimer">
+    <configuration name="EjemploAgendarTareaTimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemplotimer.EjemploAgendarTareaTimer" />
+      <module name="Hilos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.juand.hilos.ejemplotimer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EjemploProductorConsumidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemplosyn.EjemploProductorConsumidor" />
       <module name="Hilos" />
@@ -116,19 +127,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfaceRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemplos.InterfaceRunnable" />
-      <module name="Hilos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.juand.hilos.ejemplos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="InterfaceRunnableJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemplos.InterfaceRunnableJava8" />
       <module name="Hilos" />
@@ -157,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploAgendarTareaTimer" />
         <item itemvalue="Application.EjemploProductorConsumidorJava8" />
         <item itemvalue="Application.EjemploProductorConsumidor" />
         <item itemvalue="Application.EjemploSincronizacionThread" />
         <item itemvalue="Application.InterfaceRunnableJava8" />
-        <item itemvalue="Application.InterfaceRunnable" />
       </list>
     </recent_temporary>
   </component>
