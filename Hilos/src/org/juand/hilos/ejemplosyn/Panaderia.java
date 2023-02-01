@@ -5,6 +5,7 @@ public class Panaderia {
     private String pan;
     private boolean disponible;
 
+    //Los metodos wait y notify si no estan sincronizados marcara un error
     public synchronized void  hornear(String masa){
 
         while (disponible){

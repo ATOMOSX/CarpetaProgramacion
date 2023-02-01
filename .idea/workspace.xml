@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemplosyn/runnable/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemplosyn/runnable/Panadero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemplosyn/EjemploProductorConsumidorJava8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/EjemploSincronizacionThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemplos/EjemploSincronizacionThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ExtenderThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemplos/ExtenderThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/InterfaceRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemplos/InterfaceRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/InterfaceRunnableJava8.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemplos/InterfaceRunnableJava8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/runnable/ImprimirFrases.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemplos/runnable/ImprimirFrases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/runnable/ViajeTarea.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemplos/runnable/ViajeTarea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/treahds/NombreThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemplos/treahds/NombreThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemplosyn/Panaderia.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemplosyn/Panaderia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,14 +69,14 @@
       <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\PooInterfacesRepositorio\Tarea1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.juand.hilos.ejemplosyn" />
       <recent name="org.juand.hilos" />
       <recent name="org.juand.ejemplos.maps" />
       <recent name="org.juand.ejemplos.set" />
       <recent name="org.juand.poo.interfaces" />
-      <recent name="org.juand.poo.interfaces.respositorio" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploProductorConsumidor">
+  <component name="RunManager" selected="Application.EjemploProductorConsumidorJava8">
     <configuration name="EjemploProductorConsumidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemplosyn.EjemploProductorConsumidor" />
       <module name="Hilos" />
@@ -97,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploSincronizacionThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemplos.EjemploSincronizacionThread" />
+    <configuration name="EjemploProductorConsumidorJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemplosyn.EjemploProductorConsumidorJava8" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juand.hilos.ejemplos.*" />
+          <option name="PATTERN" value="org.juand.hilos.ejemplosyn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtenderThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemplos.ExtenderThread" />
+    <configuration name="EjemploSincronizacionThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemplos.EjemploSincronizacionThread" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
@@ -164,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploProductorConsumidorJava8" />
         <item itemvalue="Application.EjemploProductorConsumidor" />
         <item itemvalue="Application.EjemploSincronizacionThread" />
         <item itemvalue="Application.InterfaceRunnableJava8" />
         <item itemvalue="Application.InterfaceRunnable" />
-        <item itemvalue="Application.ExtenderThread" />
       </list>
     </recent_temporary>
   </component>
