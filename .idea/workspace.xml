@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/EjemploSincronizacionThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/runnable/ImprimirFrases.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/InterfaceRunnableJava8.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/InterfaceRunnableJava8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +76,13 @@
       <recent name="org.juand.poo.interfaces.respositorio" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterfaceRunnableJava8">
-    <configuration name="EjemploTreeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.ejemplos.maps.EjemploTreeMap" />
-      <module name="Colecciones" />
+  <component name="RunManager" selected="Application.EjemploSincronizacionThread">
+    <configuration name="EjemploSincronizacionThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.EjemploSincronizacionThread" />
+      <module name="Hilos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juand.ejemplos.maps.*" />
+          <option name="PATTERN" value="org.juand.hilos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploSincronizacionThread" />
         <item itemvalue="Application.InterfaceRunnableJava8" />
         <item itemvalue="Application.InterfaceRunnable" />
         <item itemvalue="Application.ExtenderThread" />
         <item itemvalue="Application.ListVuelos" />
-        <item itemvalue="Application.EjemploTreeMap" />
       </list>
     </recent_temporary>
   </component>
