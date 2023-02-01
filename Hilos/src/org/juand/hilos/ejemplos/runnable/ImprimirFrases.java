@@ -1,6 +1,6 @@
-package org.juand.hilos.runnable;
+package org.juand.hilos.ejemplos.runnable;
 
-import org.juand.hilos.EjemploSincronizacionThread;
+import org.juand.hilos.ejemplos.EjemploSincronizacionThread;
 
 public class ImprimirFrases implements Runnable{
 

@@ -1,6 +1,6 @@
-package org.juand.hilos;
+package org.juand.hilos.ejemplos;
 
-import org.juand.hilos.runnable.ViajeTarea;
+import org.juand.hilos.ejemplos.runnable.ViajeTarea;
 
 public class InterfaceRunnable {
     public static void main(String[] args) {

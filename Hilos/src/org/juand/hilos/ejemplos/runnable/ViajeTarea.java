@@ -1,4 +1,4 @@
-package org.juand.hilos.runnable;
+package org.juand.hilos.ejemplos.runnable;
 
 public class ViajeTarea implements Runnable{
 

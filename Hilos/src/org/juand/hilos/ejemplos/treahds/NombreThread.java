@@ -1,4 +1,4 @@
-package org.juand.hilos.treahds;
+package org.juand.hilos.ejemplos.treahds;
 
 public class NombreThread extends Thread {
 

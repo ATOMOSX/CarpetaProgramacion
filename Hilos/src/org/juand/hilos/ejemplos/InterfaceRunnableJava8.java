@@ -1,6 +1,4 @@
-package org.juand.hilos;
-
-import org.juand.hilos.runnable.ViajeTarea;
+package org.juand.hilos.ejemplos;
 
 public class InterfaceRunnableJava8 {
     public static void main(String[] args) throws InterruptedException {

@@ -1,6 +1,6 @@
-package org.juand.hilos;
+package org.juand.hilos.ejemplos;
 
-import org.juand.hilos.runnable.ImprimirFrases;
+import org.juand.hilos.ejemplos.runnable.ImprimirFrases;
 
 public class EjemploSincronizacionThread {
     public static void main(String[] args) {

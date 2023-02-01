@@ -1,6 +1,6 @@
-package org.juand.hilos;
+package org.juand.hilos.ejemplos;
 
-import org.juand.hilos.treahds.NombreThread;
+import org.juand.hilos.ejemplos.treahds.NombreThread;
 
 public class ExtenderThread {
     public static void main(String[] args) throws InterruptedException {
