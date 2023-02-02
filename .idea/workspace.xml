@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemplotimer/EjemploAgendarTareaTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemplotimer/EjemploAgendarTareaTimerPeriodo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemplotimer/EjemploAgendarTareaTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemplotimer/EjemploAgendarTareaTimer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,14 +69,14 @@
       <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\PooInterfacesRepositorio\Tarea1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.juand.hilos.ejemplotimer" />
       <recent name="org.juand.hilos.ejemplosyn" />
       <recent name="org.juand.hilos" />
       <recent name="org.juand.ejemplos.maps" />
       <recent name="org.juand.ejemplos.set" />
-      <recent name="org.juand.poo.interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploAgendarTareaTimer">
+  <component name="RunManager" selected="Application.EjemploAgendarTareaTimerPeriodo (3)">
     <configuration name="EjemploAgendarTareaTimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemplotimer.EjemploAgendarTareaTimer" />
       <module name="Hilos" />
@@ -88,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploProductorConsumidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemplosyn.EjemploProductorConsumidor" />
+    <configuration name="EjemploAgendarTareaTimerPeriodo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemplotimer.EjemploAgendarTareaTimerPeriodo" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juand.hilos.ejemplosyn.*" />
+          <option name="PATTERN" value="org.juand.hilos.ejemplotimer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploProductorConsumidorJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemplosyn.EjemploProductorConsumidorJava8" />
+    <configuration name="EjemploAgendarTareaTimerPeriodo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemplotimer.EjemploAgendarTareaTimerPeriodo" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juand.hilos.ejemplosyn.*" />
+          <option name="PATTERN" value="org.juand.hilos.ejemplotimer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploSincronizacionThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemplos.EjemploSincronizacionThread" />
+    <configuration name="EjemploAgendarTareaTimerPeriodo (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemplotimer.EjemploAgendarTareaTimerPeriodo" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juand.hilos.ejemplos.*" />
+          <option name="PATTERN" value="org.juand.hilos.ejemplotimer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfaceRunnableJava8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemplos.InterfaceRunnableJava8" />
+    <configuration name="EjemploAgendarTareaTimerPeriodo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemplotimer.EjemploAgendarTareaTimerPeriodo" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juand.hilos.ejemplos.*" />
+          <option name="PATTERN" value="org.juand.hilos.ejemplotimer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploAgendarTareaTimerPeriodo (3)" />
+        <item itemvalue="Application.EjemploAgendarTareaTimerPeriodo (2)" />
+        <item itemvalue="Application.EjemploAgendarTareaTimerPeriodo (1)" />
+        <item itemvalue="Application.EjemploAgendarTareaTimerPeriodo" />
         <item itemvalue="Application.EjemploAgendarTareaTimer" />
-        <item itemvalue="Application.EjemploProductorConsumidorJava8" />
-        <item itemvalue="Application.EjemploProductorConsumidor" />
-        <item itemvalue="Application.EjemploSincronizacionThread" />
-        <item itemvalue="Application.InterfaceRunnableJava8" />
       </list>
     </recent_temporary>
   </component>

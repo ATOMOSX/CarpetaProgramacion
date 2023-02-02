@@ -14,6 +14,7 @@ public class EjemploAgendarTareaTimer {
                 System.out.println("Tarea realizada en: " + new Date() + " nombre del thread: " +
                         Thread.currentThread().getName());
                 System.out.println("Finaliza el tiempo");
+                timer.cancel();
             }
         }, 5000);
         System.out.println("Agendamos una tarea para 5 segundos más...");
