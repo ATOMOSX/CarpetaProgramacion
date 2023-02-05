@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Hilos/Tarea1Hilos/src/EjemploHilos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hilos/Tarea1Hilos/src/HiloAlfanumerico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hilos/Tarea1Hilos/src/Tipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Lambda/src/org/juand/java8/lambda/EjemploConsumidor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -78,13 +76,13 @@
       <recent name="org.juand.ejemplos.maps" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploHilos">
-    <configuration name="EjemploExecutorFuture2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemploexecutor.EjemploExecutorFuture2" />
-      <module name="Hilos" />
+  <component name="RunManager" selected="Application.EjemploConsumidor">
+    <configuration name="EjemploConsumidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.java8.lambda.EjemploConsumidor" />
+      <module name="Java8Lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juand.hilos.ejemploexecutor.*" />
+          <option name="PATTERN" value="org.juand.java8.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploConsumidor" />
         <item itemvalue="Application.EjemploHilos" />
         <item itemvalue="Application.EjemplorScheduledExecutorservicePeriodo" />
         <item itemvalue="Application.EjemploExecutorProductorConsumidor" />
         <item itemvalue="Application.EjemploExecutorFuture3" />
-        <item itemvalue="Application.EjemploExecutorFuture2" />
       </list>
     </recent_temporary>
   </component>
