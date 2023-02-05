@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemploexecutor/EjemploExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemploexecutor/EjemploExecutorFuture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,14 +68,14 @@
       <recent name="C:\Users\MI PC\Documents\IngenieriaDeSistemas\Semestre3\Programacion\Repositorios\CarpetaProgramacion\PooInterfacesRepositorio\Tarea1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.juand.hilos.ejemploexecutor" />
       <recent name="org.juand.hilos.ejemplotimer" />
       <recent name="org.juand.hilos.ejemplosyn" />
       <recent name="org.juand.hilos" />
       <recent name="org.juand.ejemplos.maps" />
-      <recent name="org.juand.ejemplos.set" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploExecutor">
+  <component name="RunManager" selected="Application.EjemploExecutorFuture">
     <configuration name="EjemploAgendarTareaTimerPeriodo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemplotimer.EjemploAgendarTareaTimerPeriodo" />
       <module name="Hilos" />
@@ -115,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploAgendarTareaTimerPeriodo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemplotimer.EjemploAgendarTareaTimerPeriodo" />
+    <configuration name="EjemploExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemploexecutor.EjemploExecutor" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juand.hilos.ejemplotimer.*" />
+          <option name="PATTERN" value="org.juand.hilos.ejemploexecutor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemploexecutor.EjemploExecutor" />
+    <configuration name="EjemploExecutorFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemploexecutor.EjemploExecutorFuture" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
@@ -156,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploExecutorFuture" />
         <item itemvalue="Application.EjemploExecutor" />
         <item itemvalue="Application.EjemploAgendarTareaTimerPeriodo (3)" />
         <item itemvalue="Application.EjemploAgendarTareaTimerPeriodo (2)" />
         <item itemvalue="Application.EjemploAgendarTareaTimerPeriodo (1)" />
-        <item itemvalue="Application.EjemploAgendarTareaTimerPeriodo" />
       </list>
     </recent_temporary>
   </component>
