@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java8Lambda/src/org/juand/java8/lambda/EjemploConsumidor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Lambda/src/org/juand/java8/lambda/models/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java8Lambda/src/org/juand/java8/lambda/EjemploConsumidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8Lambda/src/org/juand/java8/lambda/EjemploConsumidor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8Lambda/org/juand/java8/lambda/EjemploConsumidor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8Lambda/org/juand/java8/lambda/EjemploConsumidor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
