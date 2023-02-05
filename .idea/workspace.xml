@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Hilos/src/org/juand/hilos/ejemploexecutor/EjemplorScheduledExecutorservicePeriodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hilos/Tarea1Hilos/src/EjemploHilos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hilos/Tarea1Hilos/src/HiloAlfanumerico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hilos/Tarea1Hilos/src/Tipo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -75,20 +78,7 @@
       <recent name="org.juand.ejemplos.maps" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemplorScheduledExecutorservicePeriodo">
-    <configuration name="EjemploExecutorFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemploexecutor.EjemploExecutorFuture" />
-      <module name="Hilos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.juand.hilos.ejemploexecutor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.EjemploHilos">
     <configuration name="EjemploExecutorFuture2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemploexecutor.EjemploExecutorFuture2" />
       <module name="Hilos" />
@@ -128,6 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjemploHilos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjemploHilos" />
+      <module name="Tarea1Hilos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EjemplorScheduledExecutorservicePeriodo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemploexecutor.EjemplorScheduledExecutorservicePeriodo" />
       <module name="Hilos" />
@@ -156,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploHilos" />
         <item itemvalue="Application.EjemplorScheduledExecutorservicePeriodo" />
         <item itemvalue="Application.EjemploExecutorProductorConsumidor" />
         <item itemvalue="Application.EjemploExecutorFuture3" />
         <item itemvalue="Application.EjemploExecutorFuture2" />
-        <item itemvalue="Application.EjemploExecutorFuture" />
       </list>
     </recent_temporary>
   </component>
