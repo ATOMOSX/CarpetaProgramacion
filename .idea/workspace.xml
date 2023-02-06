@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java8Lambda/src/org/juand/java8/lambda/models/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Lambda/src/org/juand/java8/lambda/EjemploFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8Lambda/src/org/juand/java8/lambda/EjemploConsumidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java8Lambda/src/org/juand/java8/lambda/EjemploConsumidor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java8Lambda/org/juand/java8/lambda/EjemploConsumidor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8Lambda/org/juand/java8/lambda/EjemploConsumidor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +76,7 @@
       <recent name="org.juand.ejemplos.maps" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploConsumidor">
+  <component name="RunManager" selected="Application.EjemploFunction">
     <configuration name="EjemploConsumidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.java8.lambda.EjemploConsumidor" />
       <module name="Java8Lambda" />
@@ -91,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploExecutorFuture3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemploexecutor.EjemploExecutorFuture3" />
+    <configuration name="EjemploExecutorProductorConsumidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemploexecutor.EjemploExecutorProductorConsumidor" />
       <module name="Hilos" />
       <extension name="coverage">
         <pattern>
@@ -104,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploExecutorProductorConsumidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemploexecutor.EjemploExecutorProductorConsumidor" />
-      <module name="Hilos" />
+    <configuration name="EjemploFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.java8.lambda.EjemploFunction" />
+      <module name="Java8Lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juand.hilos.ejemploexecutor.*" />
+          <option name="PATTERN" value="org.juand.java8.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploFunction" />
         <item itemvalue="Application.EjemploConsumidor" />
         <item itemvalue="Application.EjemploHilos" />
         <item itemvalue="Application.EjemplorScheduledExecutorservicePeriodo" />
         <item itemvalue="Application.EjemploExecutorProductorConsumidor" />
-        <item itemvalue="Application.EjemploExecutorFuture3" />
       </list>
     </recent_temporary>
   </component>
