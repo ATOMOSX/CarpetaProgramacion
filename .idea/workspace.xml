@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java8Lambda/src/org/juand/java8/lambda/aritmetica/Aritcmatica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8Lambda/src/org/juand/java8/lambda/aritmetica/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8Lambda/src/org/juand/java8/lambda/aritmetica/EjemploInterfaceFunctional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Lambda/Tarea1Lambda/src/org/juand/eliminar/EliminarCasos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +76,7 @@
       <recent name="org.juand.ejemplos.maps" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploInterfaceFunctional">
+  <component name="RunManager" selected="Application.EliminarCasos">
     <configuration name="EjemploConsumidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.java8.lambda.EjemploConsumidor" />
       <module name="Java8Lambda" />
@@ -100,13 +99,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EjemploHilos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EjemploHilos" />
-      <module name="Tarea1Hilos" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,6 +129,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EliminarCasos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.eliminar.EliminarCasos" />
+      <module name="Tarea1Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.juand.eliminar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tarea4Seccion5" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seccion5.Tarea4Seccion5" />
       <module name="CarpetaProgramacion" />
@@ -152,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EliminarCasos" />
         <item itemvalue="Application.EjemploInterfaceFunctional" />
         <item itemvalue="Application.EjemploPredicate" />
         <item itemvalue="Application.EjemploFunction" />
         <item itemvalue="Application.EjemploConsumidor" />
-        <item itemvalue="Application.EjemploHilos" />
       </list>
     </recent_temporary>
   </component>
