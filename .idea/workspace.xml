@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java8Lambda/src/org/juand/java8/lambda/EjemploPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Lambda/src/org/juand/java8/lambda/aritmetica/Aritcmatica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Lambda/src/org/juand/java8/lambda/aritmetica/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Lambda/src/org/juand/java8/lambda/aritmetica/EjemploInterfaceFunctional.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -75,7 +77,7 @@
       <recent name="org.juand.ejemplos.maps" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploPredicate">
+  <component name="RunManager" selected="Application.EjemploInterfaceFunctional">
     <configuration name="EjemploConsumidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.juand.java8.lambda.EjemploConsumidor" />
       <module name="Java8Lambda" />
@@ -109,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploPredicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.java8.lambda.EjemploPredicate" />
+    <configuration name="EjemploInterfaceFunctional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.java8.lambda.aritmetica.EjemploInterfaceFunctional" />
       <module name="Java8Lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juand.java8.lambda.*" />
+          <option name="PATTERN" value="org.juand.java8.lambda.aritmetica.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemplorScheduledExecutorservicePeriodo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.hilos.ejemploexecutor.EjemplorScheduledExecutorservicePeriodo" />
-      <module name="Hilos" />
+    <configuration name="EjemploPredicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.java8.lambda.EjemploPredicate" />
+      <module name="Java8Lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juand.hilos.ejemploexecutor.*" />
+          <option name="PATTERN" value="org.juand.java8.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploInterfaceFunctional" />
         <item itemvalue="Application.EjemploPredicate" />
         <item itemvalue="Application.EjemploFunction" />
         <item itemvalue="Application.EjemploConsumidor" />
         <item itemvalue="Application.EjemploHilos" />
-        <item itemvalue="Application.EjemplorScheduledExecutorservicePeriodo" />
       </list>
     </recent_temporary>
   </component>
