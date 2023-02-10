@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962edd02-729d-453a-9246-e16ba5058bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java8Lambda/Tarea1Lambda/src/org/juand/eliminar/EliminarCasos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Lambda/Tarea2Lambda/src/org/juand/contadordeveces/EjemploContador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java8Lambda/Tarea2Lambda/src/org/juand/contadordeveces/contadorPalabras.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +19,8 @@
       <list>
         <option value="HTML File" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -58,6 +58,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.juand.contadordeveces" />
       <recent name="Producto" />
       <recent name="Cliente" />
     </key>
@@ -76,13 +77,13 @@
       <recent name="org.juand.ejemplos.maps" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EliminarCasos">
-    <configuration name="EjemploConsumidor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.juand.java8.lambda.EjemploConsumidor" />
-      <module name="Java8Lambda" />
+  <component name="RunManager" selected="Application.EjemploContador">
+    <configuration name="EjemploContador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.juand.contadordeveces.EjemploContador" />
+      <module name="Tarea2Lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.juand.java8.lambda.*" />
+          <option name="PATTERN" value="org.juand.contadordeveces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploContador" />
         <item itemvalue="Application.EliminarCasos" />
         <item itemvalue="Application.EjemploInterfaceFunctional" />
         <item itemvalue="Application.EjemploPredicate" />
         <item itemvalue="Application.EjemploFunction" />
-        <item itemvalue="Application.EjemploConsumidor" />
       </list>
     </recent_temporary>
   </component>
