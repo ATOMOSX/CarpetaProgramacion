@@ -2,6 +2,8 @@
 
 ## Curso de estudio en java desde 0
 
+guía para entrar a los modulos
+
 Esta carpeta es con el fin de aprender un poco mas sobre Java y todos sus componentes y metodologias.
 
 ## [Variables y operadores](./VariablesYOperadores)
@@ -11,3 +13,4 @@ Esta carpeta es con el fin de aprender un poco mas sobre Java y todos sus compon
 ## [Programación orientada a objetos paquetes](./Paquetes)
 
 ## [Programación orientada a objetos interfaces](./PooInterfaces)
+
