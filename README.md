@@ -1,6 +1,6 @@
 # CarpetaProgramacion
 
-## Curso de estudio en java desde 0
+## Curso de estudio en java desde inicio
 
 guía para entrar a los modulos
 
