@@ -2,7 +2,7 @@
 
 ## Curso de estudio en java desde inicio
 
-guía para entrar a los modulos
+guía para entrar a los modulos de aprendizaje
 
 Esta carpeta es con el fin de aprender un poco mas sobre Java y todos sus componentes y metodologias.
 ayudando a dar orientación.
